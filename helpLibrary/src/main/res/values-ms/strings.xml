@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Global -->
+
+    <string name="__T_global_text_view_more">View More</string>
+    <string name="__T_global_text_add_more">Add More</string>
+    <string name="__T_global_text_add_tag">Add Tag</string>
+    <string name="__T_global_text_and">And</string>
+    <string name="__T_global_text_more">more</string>
+
+    <string name="__t_global_text_click_back_again_to_exit">Click BACK again to exit.</string>
+    <string name="__t_global_text_choose_images">Choose Images</string>
+    <string name="__t_global_text_connection_timeout">A connection timeout occured.</string>
+    <string name="__t_global_text_error_while_loading">Error in loading.</string>
+    <string name="__t_global_text_invalid_response_return">An Network error has occured.</string>
+    <string name="__t_global_text_network_connection_error">Network connection error.</string>
+    <string name="__t_global_text_no_response_return">There is no response.</string>
+    <string name="__t_global_text_no_result_shows">There are no datas</string>
+    <string name="__t_global_text_retry">Retry</string>
+    <string name="__t_global_text_tap_to_retry">Tap to Retry</string>
+    <string name="__t_global_text_cancel">Cancel</string>
+    <string name="__t_global_text_close">Close</string>
+    <string name="__t_global_text_done">Done</string>
+
+    <!-- End Global -->
+
+    <!-- Time Ago -->
+    <string name="__T_time_text_just_now">Just now</string>
+    <string name="__T_time_text_min_ago">A minute ago</string>
+    <string name="__T_time_text_mins_ago" formatted="false">%d minutes ago</string>
+    <string name="__T_time_text_hr_ago">An hour ago</string>
+    <string name="__T_time_text_hrs_ago" formatted="false">%d hours ago</string>
+    <string name="__T_time_text_yesterday">Yesterday</string>
+    <!-- End Time Ago -->
+
+</resources>

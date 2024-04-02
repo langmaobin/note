@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_bar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="@android:color/transparent"
+    app:elevation="0dp"
+    tools:background="@color/color_light_blue_0700">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_toolbar_height"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        app:contentInsetEnd="@dimen/_6sdp"
+        app:contentInsetLeft="@dimen/_6sdp"
+        app:contentInsetRight="@dimen/_6sdp"
+        app:contentInsetStart="@dimen/_6sdp"
+        app:contentInsetStartWithNavigation="0dp"
+        app:elevation="0dp"
+        app:title="">
+        <!--app:layout_scrollFlags="scroll|enterAlways"-->
+
+        <TextView
+            android:id="@+id/text_view_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|left"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAllCaps="false"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/_13ssp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+</com.google.android.material.appbar.AppBarLayout>

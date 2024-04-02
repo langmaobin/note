@@ -1,0 +1,42 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lib" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->D:\cebian\SlidingRootNav-master\helpLibrary\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="30" />
+7-->D:\cebian\SlidingRootNav-master\helpLibrary\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+9-->D:\cebian\SlidingRootNav-master\helpLibrary\src\main\AndroidManifest.xml:4:5-79
+9-->D:\cebian\SlidingRootNav-master\helpLibrary\src\main\AndroidManifest.xml:4:22-76
+10    <uses-permission android:name="android.permission.CAMERA" />
+10-->D:\cebian\SlidingRootNav-master\helpLibrary\src\main\AndroidManifest.xml:5:5-65
+10-->D:\cebian\SlidingRootNav-master\helpLibrary\src\main\AndroidManifest.xml:5:22-62
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\cebian\SlidingRootNav-master\helpLibrary\src\main\AndroidManifest.xml:6:5-67
+11-->D:\cebian\SlidingRootNav-master\helpLibrary\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\cebian\SlidingRootNav-master\helpLibrary\src\main\AndroidManifest.xml:7:5-81
+12-->D:\cebian\SlidingRootNav-master\helpLibrary\src\main\AndroidManifest.xml:7:22-78
+13
+14    <application
+14-->D:\cebian\SlidingRootNav-master\helpLibrary\src\main\AndroidManifest.xml:9:5-16:19
+15        android:allowBackup="true"
+15-->D:\cebian\SlidingRootNav-master\helpLibrary\src\main\AndroidManifest.xml:10:9-35
+16        android:label="@string/app_name_lib"
+16-->D:\cebian\SlidingRootNav-master\helpLibrary\src\main\AndroidManifest.xml:11:9-45
+17        android:supportsRtl="true"
+17-->D:\cebian\SlidingRootNav-master\helpLibrary\src\main\AndroidManifest.xml:13:9-35
+18        android:usesCleartextTraffic="true" >
+18-->D:\cebian\SlidingRootNav-master\helpLibrary\src\main\AndroidManifest.xml:12:9-44
+19        <activity android:name="com.lib.widget.swipegallery.SwipeGalleryActivity" />
+19-->D:\cebian\SlidingRootNav-master\helpLibrary\src\main\AndroidManifest.xml:14:9-78
+19-->D:\cebian\SlidingRootNav-master\helpLibrary\src\main\AndroidManifest.xml:14:19-75
+20        <activity android:name="com.lib.widget.GalleryImageSelectorActivity" />
+20-->D:\cebian\SlidingRootNav-master\helpLibrary\src\main\AndroidManifest.xml:15:9-73
+20-->D:\cebian\SlidingRootNav-master\helpLibrary\src\main\AndroidManifest.xml:15:19-70
+21    </application>
+22
+23</manifest>

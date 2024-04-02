@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="app_name_lib">Lib</string>
+    <string name="app_text_page_count_formatted" formatted="false">%d/%d</string>
+
+    <!-- Global -->
+    <string name="__T_global_text_view_more">查看更多</string>
+    <string name="__T_global_text_view_less">少看</string>
+    <string name="__T_global_text_add_more">添加更多</string>
+    <string name="__T_global_text_add_tag">添加標籤</string>
+    <string name="__T_global_text_and">和</string>
+    <string name="__T_global_text_more">更多</string>
+    <string name="__T_global_text_image_limit">達到了照片限制，您只能選擇5個項目。</string>
+    <string name="__t_global_text_click_back_again_to_exit">再次單擊BACK退出。</string>
+    <string name="__t_global_text_choose_images">選擇圖片</string>
+    <string name="__t_global_text_connection_timeout">連接超時</string>
+    <string name="__t_global_text_error_while_loading">加載數據時出錯。</string>
+    <string name="__t_global_text_invalid_response_return">網絡异常錯誤。</string>
+    <string name="__t_global_text_network_connection_error">網絡連接錯誤。</string>
+    <string name="__t_global_text_no_response_return">沒有回應。</string>
+    <string name="__t_global_text_no_result_shows">暂无数据</string>
+    <string name="__t_global_text_retry">重試</string>
+    <string name="__t_global_text_tap_to_retry">點擊重試</string>
+    <string name="__t_global_text_cancel">取消</string>
+    <string name="__t_global_text_close">關</string>
+    <string name="__t_global_text_done">完成</string>
+    <string name="__t_global_text_ok">好</string>
+    <string name="__t_global_network_connection_error">網絡連接錯誤，請檢查網絡連接</string>
+    <string name="__t_global_text_error_disconnect_vpn">連接失敗，請重試</string>
+
+    <!-- Time Ago -->
+    <string name="__T_time_text_just_now">Just now</string>
+    <string name="__T_time_text_min_ago">A minute ago</string>
+    <string name="__T_time_text_mins_ago" formatted="false">%d minutes ago</string>
+    <string name="__T_time_text_hr_ago">An hour ago</string>
+    <string name="__T_time_text_hrs_ago" formatted="false">%d hours ago</string>
+    <string name="__T_time_text_yesterday">Yesterday</string>
+    <!-- End Time Ago -->
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_swipe_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:listitem="@layout/item_swipe_gallery" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_page_count"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_centerInParent="true"
+            android:background="@color/color_black_opacity_050"
+            android:gravity="center"
+            android:paddingEnd="@dimen/_8sdp"
+            android:paddingLeft="@dimen/_8sdp"
+            android:paddingRight="@dimen/_8sdp"
+            android:paddingStart="@dimen/_8sdp"
+            android:text="0/0"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/_13ssp"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:id="@+id/ll_indicator_dots"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "applicationId": "com.lib",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": -1,
+        "outputFile": "helpLibrary-development-debug.aar",
+        "fullName": "developmentDebug",
+        "baseName": "development-debug",
+        "dirName": ""
+      },
+      "path": "../../library_manifest/developmentDebug/AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.lib",
+        "split": ""
+      }
+    }
+  ]
+}

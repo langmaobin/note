@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="segmentedradgrp_conner_radius">@dimen/_3sdp</dimen>
+    <dimen name="segmentedradgrp_stroke_border">1dp</dimen>
+
+    <dimen name="loadingdots_jump_height_default">@dimen/_10sdp</dimen>
+    <dimen name="loadingdots_size_default">@dimen/_10sdp</dimen>
+    <dimen name="loadingdots_space_default">@dimen/_2sdp</dimen>
+
+    <dimen name="size_toolbar_height">@dimen/_35sdp</dimen>
+    <dimen name="size_statusbar_height">@dimen/_25sdp</dimen>
+    <dimen name="size_searchbar_height">@dimen/_25sdp</dimen>
+
+</resources>

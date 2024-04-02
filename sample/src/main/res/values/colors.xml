@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">@color/color_app_black</color>
+    <color name="colorAccent">#448AFF</color>
+
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+
+
+
+<!--    <color name="colorPrimary">@color/color_app_main</color>-->
+<!--    <color name="colorPrimaryDark">@color/color_app_black</color>-->
+<!--    <color name="colorAccent">@color/color_app_main</color>-->
+
+
+    <color name="color_app_main">@color/color_app_brown</color>
+
+    <!--by designer-->
+
+    <color name="color_app_brown_dark">#513d34</color>
+    <color name="color_app_brown">#e8be72</color>
+    <color name="color_app_gray_dark">#686868</color>
+    <color name="color_app_gray_mid">#A7A7A7</color>
+    <color name="color_app_gray">#c1c1c1</color>
+    <color name="color_app_gray_light">#c4c4c4</color>
+    <color name="color_app_black">#000000</color>
+    <color name="color_app_black_light">#404040</color>
+    <color name="color_app_white">#ffffff</color>
+    <color name="color_app_white_dark">#f5f3eb</color>
+    <color name="color_app_white_dark2">#F5F3EB</color>
+    <color name="color_app_white_mid">#fbf9f6</color>
+    <color name="color_app_green">#53b630</color>
+    <color name="color_app_red">#b12c2c</color>
+    <color name="color_app_red_light">#FF483F</color>
+    <color name="color_app_red_light2">#C81533</color>
+
+    <color name="color_app_blue">#4181ff</color>
+    <color name="color_app_blue_light">#D4EBE9</color>
+    <color name="color_app_gray2">#898989</color>
+    <color name="color_app_yellow_white_light">#FBF9F6</color>
+    <color name="color_duck_orange">#E19E38</color>
+    <color name="color_app_yellow">#FDA085</color>
+    <color name="color_app_yellow_light2">#FFFBF1</color>
+    <color name="color_app_yellow_light3">#FDB813</color>
+    <color name="color_app_yellow_light4">#FEEA2F</color>
+
+    <color name="color_app_lv">#0AC421</color>
+    <color name="color_app_quan">#CA3CFF</color>
+    <color name="color_app_ke">#205BFF</color>
+    <color name="color_app_ji">#FF483F</color>
+    <color name="color_app_primary">#FF483F</color>
+    <color name="color_app_other">#4181ff</color>
+    <color name="color_app_boshi">#12B6E1</color>
+    <color name="color_app_second">#CA3CFF</color>
+    <color name="color_app_special">#BA8D34</color>
+    <color name="color_app_text_grey">#8D8D8D</color>
+    <color name="color_app_text">#515151</color>
+    <color name="color_lunar_text">#454545</color>
+    <color name="color_lunar_bg">#FBF9F8</color>
+    <color name="color_app_bg">#F9FAFC</color>
+    <color name="color_text_green">#148D00</color>
+
+    <!--by carbon-->
+
+    <color name="carbon_defaultColor">#12345678</color>
+    <color name="carbon_defaultColorPrimary">#12345678</color>
+    <color name="carbon_defaultColorAccent">#12345678</color>
+
+    <color name="carbon_defaultIconColor">#12345678</color>
+    <color name="carbon_defaultIconColorInverse">#12345678</color>
+    <color name="carbon_defaultIconColorAccent">#12345678</color>
+    <color name="carbon_defaultIconColorAccentInverse">#12345678</color>
+    <color name="carbon_defaultIconColorPrimary">#12345678</color>
+    <color name="carbon_defaultIconColorPrimaryInverse">#12345678</color>
+
+    <color name="carbon_defaultTextPrimaryColor">#12345678</color>
+    <color name="carbon_defaultTextSecondaryColor">#12345678</color>
+    <color name="carbon_defaultTextPrimaryColorInverse">#12345678</color>
+    <color name="carbon_defaultTextSecondaryColorInverse">#12345678</color>
+    <color name="carbon_defaultTextColorPrimary">#12345678</color>
+    <color name="carbon_defaultTextColorAccent">#12345678</color>
+
+    <color name="carbon_defaultRippleColor">#12345678</color>
+    <color name="carbon_defaultRippleColorPrimary">#12345678</color>
+    <color name="carbon_defaultRippleColorAccent">#12345678</color>
+
+    <color name="white">@android:color/white</color>
+
+    <color name="custom_picker_default_color">#999999</color>
+    <color name="custom_picker_selected_color">#333333</color>
+
+    <color name="custom_picker_color14">#38adff</color>
+    <color name="custom_picker_color7">#ffffff</color>
+
+
+    <color name="color_wu_orange">#CB873D</color>
+    <color name="color_wu_yellow">#F5F3EC</color>
+    <color name="color_wu_white">#FDFCFB</color>
+    <color name="color_wu_green">#387E21</color>
+    <color name="color_wu_red">#EA3324</color>
+    <color name="color_wu_brow">#8F541C</color>
+    <color name="color_wu_gold">#EC8333</color>
+    <color name="color_wu_blue">#0300F5</color>
+    <color name="color_qr_black">#0B1326</color>
+
+    <!--new color-->
+    <color name="c1">#B99F90</color>
+    <color name="c5">#B99F90</color>
+    <color name="c7">#B99F90</color>
+
+    <color name="tc0">#53B630</color>
+    <color name="tc1">#B99F90</color>
+    <color name="tc2">#FFFFFF</color>
+    <color name="tc3">#BBBBBB</color>
+    <color name="tc5">#8A8685</color>
+    <color name="tc6">#DDDDDD</color>
+    <color name="tc7">#40342E</color>
+    <color name="tc9">#DECBBD</color>
+    <color name="tc11">#EBAF3B</color>
+
+    <color name="bgc2">#FFFFFF</color>
+    <color name="bgc3">#272522</color>
+    <color name="bgc3_g">#3F3A38</color>
+
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_bgColor_overlay">#60000000</color>
+
+    <color name="ThemeColor">#ff5c00</color>
+    <color name="font_color">#333333</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="exo_edit_mode_background_color">#FFF4F3F0</color>
+
+    <color name="primary_color">#334154</color>
+    <color name="transparent">#00000000</color>
+    <color name="green">#138924</color>
+    <color name="white_dark">#f5f6f8</color>
+    <color name="high_light">#E6E7E8</color>
+    <color name="rect">#dddddd</color>
+    <color name="dash">#d2d2d2</color>
+    <color name="gong_ming">#ff0000</color>
+    <color name="da_xian">#008000</color>
+    <color name="liu_nian">#0665f3</color>
+    <color name="liu_yue">#ffa500</color>
+    <color name="liu_ri">#800080</color>
+    <color name="liu_shi">#008080</color>
+    <color name="title">#333333</color>
+    <color name="bo_shi">#4B9EA0</color>
+    <color name="za_yao">#444444</color>
+    <color name="black">#000000</color>
+    <color name="black80">#CC000000</color>
+    <color name="zi_hua_text">#ffffff</color>
+    <color name="zi_hua_lu">#008000</color>
+    <color name="zi_hua_quan">#800080</color>
+    <color name="zi_hua_ke">#0665f3</color>
+    <color name="zi_hua_ji">#ff0000</color>
+    <color name="gray">#d1d1d1</color>
+    <color name="dark_gray">#706e75</color>
+    <color name="tab_normal">#ffffff</color>
+    <color name="tab_hover">#dedad2</color>
+    <color name="oval_gray">#bbbbbb</color>
+    <color name="divider_gray">#ebebeb</color>
+    <color name="text_color">#334154</color>
+    <color name="text_color_gray">#888888</color>
+    <color name="text_color_dark">#6b798b</color>
+    <color name="text_color_blue">#0668ed</color>
+    <color name="text_color_yellow">#86766a</color>
+    <color name="text_color_sky">#20a5fb</color>
+    <color name="text_color_red">#ff0000</color>
+    <color name="text_color_hint">#9b9b9b</color>
+    <color name="small_rect_fill">#f4f1f1</color>
+    <color name="small_rect_stroke">#b9b9b9</color>
+    <color name="tab_row_gray">#f2f2f2</color>
+    <color name="tab_row_yellow">#fef7e5</color>
+    <color name="tab_row_divider">#dbdbdb</color>
+    <color name="check_box_hover">#706e75</color>
+    <color name="check_box_normal">#b8b8b8</color>
+    <color name="wu_xing_jin">#e7ad5c</color>
+    <color name="wu_xing_mu">#6be554</color>
+    <color name="wu_xing_shui">#417df1</color>
+    <color name="wu_xing_huo">#c0281b</color>
+    <color name="wu_xing_tu">#8a7328</color>
+
+    <color name="xing_duck">#75147B</color>
+    <color name="xing_blue">#214F98</color>
+    <color name="xing_zhu">#AF2216</color>
+    <color name="xing_black">#000000</color>
+    <color name="top_color">#290945</color>
+    <color name="button_color">#f54085</color>
+</resources>

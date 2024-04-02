@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\cebian\notes\wyvisionhelper\src\main\res"/><source path="D:\cebian\notes\wyvisionhelper\build\generated\res\rs\development\debug"/><source path="D:\cebian\notes\wyvisionhelper\build\generated\res\resValues\development\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\cebian\notes\wyvisionhelper\src\main\res"><file name="layer_list_side_top_bottom_white" path="D:\cebian\notes\wyvisionhelper\src\main\res\drawable\layer_list_side_top_bottom_white.xml" qualifiers="" type="drawable"/><file name="view_expandable_textview" path="D:\cebian\notes\wyvisionhelper\src\main\res\layout\view_expandable_textview.xml" qualifiers="" type="layout"/><file name="view_menu_back" path="D:\cebian\notes\wyvisionhelper\src\main\res\layout\view_menu_back.xml" qualifiers="" type="layout"/><file path="D:\cebian\notes\wyvisionhelper\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="ExpandableTextView">
+        <attr format="integer" name="maxCollapsedLines"/>
+        <attr format="integer" name="animDuration"/>
+        <attr format="dimension" name="contentTextSize"/>
+        <attr format="color" name="contentTextColor"/>
+        <attr format="float" name="contentLineSpacingMultiplier"/>
+        <attr format="reference" name="expandDrawable"/>
+        <attr format="string" name="expandText"/>
+        <attr format="string" name="viewMoreTextColor"/>
+        <attr format="dimension" name="contentViewMoreTextSize"/>
+        <attr format="reference" name="collapseDrawable"/>
+        <attr format="string" name="collapseText"/>
+        <attr format="color" name="expandCollapseTextColor"/>
+        <attr name="DrawableAndTextGravity">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable><declare-styleable name="AndroidTagView">
+        <attr format="dimension" name="vertical_interval"/>
+        <attr format="dimension" name="horizontal_interval"/>
+
+        <attr format="dimension" name="container_border_width"/>
+        <attr format="dimension" name="container_border_radius"/>
+        <attr format="color" name="container_border_color"/>
+        <attr format="color" name="container_background_color"/>
+        <attr format="boolean" name="container_enable_drag"/>
+        <attr format="float" name="container_drag_sensitivity"/>
+        <attr format="integer" name="container_max_lines"/>
+        <attr format="enum" name="container_gravity">
+            <enum name="left" value="3"/>
+            <enum name="center" value="17"/>
+            <enum name="right" value="5"/>
+        </attr>
+
+        <attr format="dimension" name="tag_border_width"/>
+        <attr format="dimension" name="tag_corner_radius"/>
+        <attr format="dimension" name="tag_horizontal_padding"/>
+        <attr format="dimension" name="tag_vertical_padding"/>
+        <attr format="dimension" name="tag_text_size"/>
+        <attr format="dimension" name="tag_bd_distance"/>
+        <attr format="color" name="tag_text_color"/>
+        <attr format="color" name="tag_border_color"/>
+        <attr format="color" name="tag_background_color"/>
+        <attr format="integer" name="tag_max_length"/>
+        <attr format="boolean" name="tag_clickable"/>
+        <attr format="enum" name="tag_theme">
+            <enum name="none" value="-1"/>
+            <enum name="random" value="0"/>
+            <enum name="pure_cyan" value="1"/>
+            <enum name="pure_teal" value="2"/>
+        </attr>
+        <attr format="enum" name="tag_text_direction">
+            <enum name="ltr" value="3"/>
+            <enum name="rtl" value="4"/>
+        </attr>
+
+        <attr format="color" name="tag_ripple_color"/>
+        <attr format="integer" name="tag_ripple_alpha"/>
+        <attr format="integer" name="tag_ripple_duration"/>
+
+        <attr format="boolean" name="tag_enable_cross"/>
+        <attr format="dimension" name="tag_cross_width"/>
+        <attr format="color" name="tag_cross_color"/>
+        <attr format="dimension" name="tag_cross_line_width"/>
+        <attr format="dimension" name="tag_cross_area_padding"/>
+        <attr format="boolean" name="tag_support_letters_rlt"/>
+        <attr format="reference" name="tag_background"/>
+    </declare-styleable><declare-styleable name="IconTextView">
+        <attr format="boolean" name="itv_revampVersion"/>
+    </declare-styleable></file><file path="D:\cebian\notes\wyvisionhelper\src\main\res\values\colors.xml" qualifiers=""/><file path="D:\cebian\notes\wyvisionhelper\src\main\res\values\ids.xml" qualifiers=""><item name="expandable_text" type="id"/><item name="expand_collapse" type="id"/><item name="view_more" type="id"/></file><file path="D:\cebian\notes\wyvisionhelper\src\main\res\values\strings.xml" qualifiers=""><string name="app_name_base">Base</string><string name="icon_moveup2"></string><string name="icon_movedown"></string><string name="icon_moveleft3"></string><string name="__t_api_status_alert_success">Successful</string><string name="__t_api_status_alert_invalid_signature">We have encountered an error while processing your request. Please try again later.</string><string name="__t_api_status_alert_invalid_host_ip">We have encountered an error while processing your request. Please try again later.</string><string name="__t_api_status_alert_invalid_login_token">Your session has expired. Please re-login.</string><string name="__t_api_status_alert_invalid_ws_id">We have encountered an error while processing your request. Please try again later.</string><string name="__t_api_status_alert_account_suspended">Your account has been suspended. Contact admin for more details.</string><string name="__t_api_status_alert_email_reported">Your email has been reported. Contact admin for more details.</string><string name="__t_api_status_alert_email_updated">Your email has been updated. Please re-login.</string><string name="__t_api_status_alert_server_maintenance">Our server is under maintenance. Please try again later.</string><string name="__t_api_status_alert_server_error">We have encountered an error while processing your request. Please try again later.</string><string name="__t_api_status_alert_unknown_system_error">We have encountered an unknown error. Please try again.</string></file><file path="D:\cebian\notes\wyvisionhelper\src\main\res\values\styles.xml" qualifiers=""><style name="ToolbarMenuItemStyleWhite">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">@dimen/_6sdp</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">@dimen/_15ssp</item>
+    </style></file><file path="D:\cebian\notes\wyvisionhelper\src\main\res\values-tw\strings.xml" qualifiers="tw"><string name="app_name_base">Base</string><string name="icon_moveup2"></string><string name="icon_movedown"></string><string name="icon_moveleft3"></string><string name="__t_api_status_alert_success">成功</string><string name="__t_api_status_alert_invalid_signature">處理您的請求時遇到錯誤，請稍後再試。</string><string name="__t_api_status_alert_invalid_host_ip">處理您的請求時遇到錯誤，請稍後再試。</string><string name="__t_api_status_alert_invalid_login_token">您的會話已過期，請重新登錄。</string><string name="__t_api_status_alert_invalid_ws_id">處理您的請求時遇到錯誤，請稍後再試。</string><string name="__t_api_status_alert_account_suspended">您的帳戶已被暫停，聯繫管理員了解更多詳情。</string><string name="__t_api_status_alert_email_reported">您的郵箱已被舉報，聯繫管理員了解更多詳情</string><string name="__t_api_status_alert_email_updated">您的郵箱已更新，請重新登錄。</string><string name="__t_api_status_alert_server_maintenance">我們的服務器正在維護中，請稍後再試。</string><string name="__t_api_status_alert_server_error">處理您的請求時遇到錯誤，請稍後再試。</string><string name="__t_api_status_alert_unknown_system_error">我們遇到了一個未知錯誤，請再試一次。</string></file><file path="D:\cebian\notes\wyvisionhelper\src\main\res\values-zh\strings.xml" qualifiers="zh"><string name="app_name_base">Base</string><string name="icon_moveup2"></string><string name="icon_movedown"></string><string name="icon_moveleft3"></string><string name="__t_api_status_alert_success">成功</string><string name="__t_api_status_alert_invalid_signature">处理您的请求时遇到错误，请稍后再试。</string><string name="__t_api_status_alert_invalid_host_ip">处理您的请求时遇到错误，请稍后再试。</string><string name="__t_api_status_alert_invalid_login_token">您的会话已过期，请重新登录。</string><string name="__t_api_status_alert_invalid_ws_id">处理您的请求时遇到错误，请稍后再试。</string><string name="__t_api_status_alert_account_suspended">您的帐户已被暂停，联系管理员了解更多详情。</string><string name="__t_api_status_alert_email_reported">您的邮箱已被举报，联系管理员了解更多详情</string><string name="__t_api_status_alert_email_updated">您的邮箱已更新，请重新登录。</string><string name="__t_api_status_alert_server_maintenance">我们的服务器正在维护中，请稍后再试。</string><string name="__t_api_status_alert_server_error">处理您的请求时遇到错误，请稍后再试。</string><string name="__t_api_status_alert_unknown_system_error">我们遇到了一个未知错误，请再试一次。</string></file></source><source path="D:\cebian\notes\wyvisionhelper\build\generated\res\rs\development\debug"/><source path="D:\cebian\notes\wyvisionhelper\build\generated\res\resValues\development\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="development$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\cebian\notes\wyvisionhelper\src\development\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="development" generated-set="development$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\cebian\notes\wyvisionhelper\src\development\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\cebian\notes\wyvisionhelper\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\cebian\notes\wyvisionhelper\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="developmentDebug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\cebian\notes\wyvisionhelper\src\developmentDebug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="developmentDebug" generated-set="developmentDebug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\cebian\notes\wyvisionhelper\src\developmentDebug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="ExpandableTextView">
+        <attr format="integer" name="maxCollapsedLines"/>
+        <attr format="integer" name="animDuration"/>
+        <attr format="dimension" name="contentTextSize"/>
+        <attr format="color" name="contentTextColor"/>
+        <attr format="float" name="contentLineSpacingMultiplier"/>
+        <attr format="reference" name="expandDrawable"/>
+        <attr format="string" name="expandText"/>
+        <attr format="string" name="viewMoreTextColor"/>
+        <attr format="dimension" name="contentViewMoreTextSize"/>
+        <attr format="reference" name="collapseDrawable"/>
+        <attr format="string" name="collapseText"/>
+        <attr format="color" name="expandCollapseTextColor"/>
+        <attr name="DrawableAndTextGravity">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable><declare-styleable name="IconTextView">
+        <attr format="boolean" name="itv_revampVersion"/>
+    </declare-styleable><declare-styleable name="AndroidTagView">
+        <attr format="dimension" name="vertical_interval"/>
+        <attr format="dimension" name="horizontal_interval"/>
+
+        <attr format="dimension" name="container_border_width"/>
+        <attr format="dimension" name="container_border_radius"/>
+        <attr format="color" name="container_border_color"/>
+        <attr format="color" name="container_background_color"/>
+        <attr format="boolean" name="container_enable_drag"/>
+        <attr format="float" name="container_drag_sensitivity"/>
+        <attr format="integer" name="container_max_lines"/>
+        <attr format="enum" name="container_gravity">
+            <enum name="left" value="3"/>
+            <enum name="center" value="17"/>
+            <enum name="right" value="5"/>
+        </attr>
+
+        <attr format="dimension" name="tag_border_width"/>
+        <attr format="dimension" name="tag_corner_radius"/>
+        <attr format="dimension" name="tag_horizontal_padding"/>
+        <attr format="dimension" name="tag_vertical_padding"/>
+        <attr format="dimension" name="tag_text_size"/>
+        <attr format="dimension" name="tag_bd_distance"/>
+        <attr format="color" name="tag_text_color"/>
+        <attr format="color" name="tag_border_color"/>
+        <attr format="color" name="tag_background_color"/>
+        <attr format="integer" name="tag_max_length"/>
+        <attr format="boolean" name="tag_clickable"/>
+        <attr format="enum" name="tag_theme">
+            <enum name="none" value="-1"/>
+            <enum name="random" value="0"/>
+            <enum name="pure_cyan" value="1"/>
+            <enum name="pure_teal" value="2"/>
+        </attr>
+        <attr format="enum" name="tag_text_direction">
+            <enum name="ltr" value="3"/>
+            <enum name="rtl" value="4"/>
+        </attr>
+
+        <attr format="color" name="tag_ripple_color"/>
+        <attr format="integer" name="tag_ripple_alpha"/>
+        <attr format="integer" name="tag_ripple_duration"/>
+
+        <attr format="boolean" name="tag_enable_cross"/>
+        <attr format="dimension" name="tag_cross_width"/>
+        <attr format="color" name="tag_cross_color"/>
+        <attr format="dimension" name="tag_cross_line_width"/>
+        <attr format="dimension" name="tag_cross_area_padding"/>
+        <attr format="boolean" name="tag_support_letters_rlt"/>
+        <attr format="reference" name="tag_background"/>
+    </declare-styleable></configuration></mergedItems></merger>

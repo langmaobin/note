@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:dither="true"
+    android:shape="oval"
+    android:useLevel="true">
+    <size
+        android:width="12dp"
+        android:height="12dp" />
+    <stroke
+        android:width="0.75dp"
+        android:color="@color/color_swipegallery_dot_bg_stroke_grey" />
+    <solid android:color="@color/color_swipegallery_dot_bg_selected" />
+</shape>

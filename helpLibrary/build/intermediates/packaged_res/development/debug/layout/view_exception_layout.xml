@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_exception_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/_28sdp"
+    android:paddingLeft="@dimen/_28sdp"
+    android:paddingEnd="@dimen/_28sdp"
+    android:paddingRight="@dimen/_28sdp"
+    android:visibility="gone">
+
+    <ImageView
+        android:id="@+id/iv_exception_icon"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_gravity="center"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_exception_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:textColor="@color/color_app_blue_coral"
+        android:gravity="center"
+        android:text="@string/__t_global_text_error_while_loading"
+        android:textSize="@dimen/_10ssp" />
+
+    <TextView
+        android:id="@+id/tv_exception_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/ripple_btn_white"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:padding="@dimen/_6sdp"
+        android:text="@string/__t_global_text_tap_to_retry"
+        android:textAllCaps="false"
+        android:textColor="@color/color_grey_0700"
+        android:textSize="@dimen/_11ssp" />
+
+</LinearLayout>

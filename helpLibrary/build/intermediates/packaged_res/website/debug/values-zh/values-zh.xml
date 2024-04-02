@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__T_global_text_add_more">添加更多</string>
+    <string name="__T_global_text_add_tag">添加标签</string>
+    <string name="__T_global_text_and">和</string>
+    <string name="__T_global_text_image_limit">达到了照片限制，您只能选择5个项目。</string>
+    <string name="__T_global_text_more">更多</string>
+    <string name="__T_global_text_view_less">少看</string>
+    <string name="__T_global_text_view_more">查看更多</string>
+    <string name="__T_time_text_hr_ago">An hour ago</string>
+    <string formatted="false" name="__T_time_text_hrs_ago">%d hours ago</string>
+    <string name="__T_time_text_just_now">Just now</string>
+    <string name="__T_time_text_min_ago">A minute ago</string>
+    <string formatted="false" name="__T_time_text_mins_ago">%d minutes ago</string>
+    <string name="__T_time_text_yesterday">Yesterday</string>
+    <string name="__t_global_network_connection_error">网络连接错误，请检查网络连接</string>
+    <string name="__t_global_text_cancel">取消</string>
+    <string name="__t_global_text_choose_images">选择图片</string>
+    <string name="__t_global_text_click_back_again_to_exit">再次单击BACK退出。</string>
+    <string name="__t_global_text_close">关</string>
+    <string name="__t_global_text_connection_timeout">连接超时</string>
+    <string name="__t_global_text_done">完成</string>
+    <string name="__t_global_text_error_disconnect_vpn">连接失败，请重试</string>
+    <string name="__t_global_text_error_while_loading">加载数据时出错。</string>
+    <string name="__t_global_text_invalid_response_return">网络异常错误。</string>
+    <string name="__t_global_text_network_connection_error">网络连接错误。</string>
+    <string name="__t_global_text_no_response_return">没有回应。</string>
+    <string name="__t_global_text_no_result_shows">暂无数据</string>
+    <string name="__t_global_text_ok">好</string>
+    <string name="__t_global_text_retry">重试</string>
+    <string name="__t_global_text_tap_to_retry">点击重试</string>
+    <string name="app_name_lib">Lib</string>
+    <string formatted="false" name="app_text_page_count_formatted">%d/%d</string>
+</resources>

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "applicationId": "com.lib",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "AAPT_FRIENDLY_MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": -1,
+        "outputFile": "helpLibrary-website-debug.aar",
+        "fullName": "websiteDebug",
+        "baseName": "website-debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.lib",
+        "split": ""
+      }
+    }
+  ]
+}

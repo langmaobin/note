@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DividerHorizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/color_white</item>
+    </style>
+
+    <style name="DividerHorizontal2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/color_black</item>
+    </style>
+
+    <style name="AdapterItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_50sdp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TagGroupDefaultStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="atg_isAppendMode">false</item>
+        <item name="atg_inputHint">@string/__T_global_text_add_tag</item>
+        <item name="atg_borderStrokeWidth">0.5dp</item>
+        <item name="atg_textSize">@dimen/_12ssp</item>
+        <item name="atg_horizontalSpacing">@dimen/_6sdp</item>
+        <item name="atg_verticalSpacing">@dimen/_4sdp</item>
+        <item name="atg_horizontalPadding">@dimen/_10sdp</item>
+        <item name="atg_verticalPadding">@dimen/_3sdp</item>
+        <item name="atg_borderColor">@color/color_burly_wood</item>
+        <item name="atg_textColor">@color/color_white</item>
+        <item name="atg_backgroundColor">@color/color_burly_wood</item>
+        <item name="atg_inputHintColor">@color/color_grey_0400</item>
+        <item name="atg_inputTextColor">@color/color_grey_0400</item>
+        <item name="atg_checkedBorderColor">@color/color_burly_wood</item>
+        <item name="atg_checkedTextColor">@color/color_burly_wood</item>
+        <item name="atg_checkedMarkerColor">@color/color_burly_wood</item>
+        <item name="atg_checkedBackgroundColor">@color/color_white</item>
+        <item name="atg_pressedBackgroundColor">@color/color_tan</item>
+    </style>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/expandable_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/_11sdp"
+            android:paddingLeft="@dimen/_11sdp"
+            android:paddingRight="@dimen/_11sdp"
+            android:paddingStart="@dimen/_11sdp"
+            android:textSize="@dimen/_12ssp" />
+
+        <View
+            android:id="@+id/view_transparency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/expandable_text"
+            android:layout_alignTop="@+id/expandable_text" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/view_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center|bottom"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center|bottom"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/_3sdp"
+        android:paddingTop="@dimen/_8sdp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_view_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:gravity="center|bottom"
+            android:text="@string/__T_global_text_view_more"
+            android:textAllCaps="false"
+            android:textColor="@color/color_grey_0800"
+            android:textSize="@dimen/_7ssp" />
+
+        <com.ywvision.wyvisionhelper.widget.IconTextView
+            android:id="@id/expand_collapse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:gravity="center|bottom"
+            android:paddingLeft="@dimen/_3sdp"
+            android:paddingStart="@dimen/_3sdp"
+            android:paddingTop="@dimen/_1sdp"
+            android:text="@string/icon_movedown"
+            android:textColor="@color/color_grey_0800"
+            android:textSize="@dimen/_7ssp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</merge>

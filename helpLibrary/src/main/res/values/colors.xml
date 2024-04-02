@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Segmented Radio Button Colors List -->
+    <color name="color_segmentedradbtn_selected">#FF33B5E5</color>
+    <color name="color_segmentedradbtn_unselected">#E0E0E0</color>
+
+    <!-- SwipeGallery Colors List -->
+
+    <color name="color_swipegallery_dot_bg_normal">#80212121</color>
+    <color name="color_swipegallery_dot_bg_selected">#FFFAFA</color>
+    <color name="color_swipegallery_dot_bg_stroke_grey">#9E9E9E</color>
+    <color name="color_swipegallery_dot_bg_stroke_white">#FFFFFF</color>
+
+    <!-- HTML Colors List -->
+
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_red">#FF0000</color>
+    <color name="color_burly_wood">#DEB887</color>
+    <color name="color_light_grey">#D3D3D3</color>
+    <color name="color_tan">#D2B48C</color>
+    <color name="color_dark_gray">#A9A9A9</color>
+    <color name="color_gray">#808080</color>
+    <color name="color_black">#000000</color>
+
+    <!-- Material Design Colors List -->
+
+    <color name="color_red_0500">#F44336</color>
+    <color name="color_red_A400">#FF1744</color>
+
+    <color name="color_light_blue_0700">#0288D1</color>
+
+    <color name="color_green_A400">#00E676</color>
+
+    <color name="color_orange_A400">#FF9100</color>
+
+    <color name="color_grey_0100">#F5F5F5</color>
+    <color name="color_grey_0200">#EEEEEE</color>
+    <color name="color_grey_0300">#E0E0E0</color>
+    <color name="color_grey_0400">#BDBDBD</color>
+    <color name="color_grey_0500">#9E9E9E</color>
+    <color name="color_grey_0700">#616161</color>
+    <color name="color_grey_0800">#424242</color>
+    <color name="color_app_blue_coral">#7AB4EF</color>
+
+    <!-- Opacity range in hexadecimal
+    100% — FF
+    95% — F2
+    90% — E6
+    85% — D9
+    80% — CC
+    75% — BF
+    70% — B3
+    65% — A6
+    60% — 99
+    55% — 8C
+    50% — 80
+    45% — 73
+    40% — 66
+    35% — 59
+    30% — 4D
+    25% — 40
+    20% — 33
+    15% — 26
+    10% — 1A
+    5% — 0D
+    0% — 00
+    -->
+
+    <color name="color_black_opacity_050">#80000000</color>
+
+</resources>

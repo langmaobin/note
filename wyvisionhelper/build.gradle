@@ -1,0 +1,66 @@
+ext {
+    vGreendao = '2.1.0'
+    vPaypal = '2.15.3'
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 30
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    publishNonDefault true
+    flavorDimensions "main"
+    productFlavors {
+        def STRING = "String"
+        def BASE_URL = "BASE_URL"
+        def SERVER_BASE_URL = "SERVER_BASE_URL"
+        def VAR_DEVELOPMENT_BASE_URL = "http://47.75.121.210"
+        def VAR_DEVELOPMENT_SERVER_BASE_URL = VAR_DEVELOPMENT_BASE_URL
+        def VAR_STAGING_BASE_URL = "http://47.75.121.210"
+        def VAR_STAGING_SERVER_BASE_URL = VAR_STAGING_BASE_URL
+        def VAR_PRODUCTION_BASE_URL = "http://47.75.121.210"
+        def VAR_PRODUCTION_SERVER_BASE_URL = VAR_PRODUCTION_BASE_URL
+
+        development {
+            buildConfigField STRING, BASE_URL, "\"" + VAR_DEVELOPMENT_BASE_URL + "\""
+            buildConfigField STRING, SERVER_BASE_URL, "\"" + VAR_DEVELOPMENT_SERVER_BASE_URL + "\""
+        }
+        googleplay {
+            buildConfigField STRING, BASE_URL, "\"" + VAR_DEVELOPMENT_BASE_URL + "\""
+            buildConfigField STRING, SERVER_BASE_URL, "\"" + VAR_DEVELOPMENT_SERVER_BASE_URL + "\""
+        }
+        website {
+            buildConfigField STRING, BASE_URL, "\"" + VAR_DEVELOPMENT_BASE_URL + "\""
+            buildConfigField STRING, SERVER_BASE_URL, "\"" + VAR_DEVELOPMENT_SERVER_BASE_URL + "\""
+        }
+
+    }
+    lintOptions {
+        abortOnError false
+        checkReleaseBuilds false
+        disable 'PrivateResource'
+    }
+}
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':helpLibrary')
+    compile "com.paypal.sdk:paypal-android-sdk:$vPaypal"
+    compile "de.greenrobot:greendao-generator:$vGreendao"
+}

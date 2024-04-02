@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/AdapterItemStyle">
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:layout_width="@dimen/_23sdp"
+        android:layout_height="@dimen/_23sdp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        app:indicatorColor="#1fc555"
+        app:indicatorName="BallSpinFadeLoaderIndicator" />
+
+    <!--<com.lib.widget.LoadingDots-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--app:ldots_autoPlay="true"-->
+    <!--app:ldots_dotsColor="#9ABFB3"-->
+    <!--app:ldots_dotsCount="4"-->
+    <!--app:ldots_dotsSize="@dimen/_6sdp"-->
+    <!--app:ldots_dotsSpace="@dimen/_3sdp"-->
+    <!--app:ldots_jumpDuration="200"-->
+    <!--app:ldots_jumpHeight="@dimen/_5sdp"-->
+    <!--app:ldots_loopDuration="800"-->
+    <!--app:ldots_loopStartDelay="100" />-->
+
+</RelativeLayout>

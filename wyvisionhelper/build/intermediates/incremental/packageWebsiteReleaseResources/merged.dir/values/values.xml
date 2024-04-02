@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="expand_collapse" type="id"/>
+    <item name="expandable_text" type="id"/>
+    <item name="view_more" type="id"/>
+    <string name="__t_api_status_alert_account_suspended">Your account has been suspended. Contact admin for more details.</string>
+    <string name="__t_api_status_alert_email_reported">Your email has been reported. Contact admin for more details.</string>
+    <string name="__t_api_status_alert_email_updated">Your email has been updated. Please re-login.</string>
+    <string name="__t_api_status_alert_invalid_host_ip">We have encountered an error while processing your request. Please try again later.</string>
+    <string name="__t_api_status_alert_invalid_login_token">Your session has expired. Please re-login.</string>
+    <string name="__t_api_status_alert_invalid_signature">We have encountered an error while processing your request. Please try again later.</string>
+    <string name="__t_api_status_alert_invalid_ws_id">We have encountered an error while processing your request. Please try again later.</string>
+    <string name="__t_api_status_alert_server_error">We have encountered an error while processing your request. Please try again later.</string>
+    <string name="__t_api_status_alert_server_maintenance">Our server is under maintenance. Please try again later.</string>
+    <string name="__t_api_status_alert_success">Successful</string>
+    <string name="__t_api_status_alert_unknown_system_error">We have encountered an unknown error. Please try again.</string>
+    <string name="app_name_base">Base</string>
+    <string name="icon_movedown"></string>
+    <string name="icon_moveleft3"></string>
+    <string name="icon_moveup2"></string>
+    <style name="ToolbarMenuItemStyleWhite">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">@dimen/_6sdp</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">@dimen/_15ssp</item>
+    </style>
+    <declare-styleable name="AndroidTagView">
+        <attr format="dimension" name="vertical_interval"/>
+        <attr format="dimension" name="horizontal_interval"/>
+
+        <attr format="dimension" name="container_border_width"/>
+        <attr format="dimension" name="container_border_radius"/>
+        <attr format="color" name="container_border_color"/>
+        <attr format="color" name="container_background_color"/>
+        <attr format="boolean" name="container_enable_drag"/>
+        <attr format="float" name="container_drag_sensitivity"/>
+        <attr format="integer" name="container_max_lines"/>
+        <attr format="enum" name="container_gravity">
+            <enum name="left" value="3"/>
+            <enum name="center" value="17"/>
+            <enum name="right" value="5"/>
+        </attr>
+
+        <attr format="dimension" name="tag_border_width"/>
+        <attr format="dimension" name="tag_corner_radius"/>
+        <attr format="dimension" name="tag_horizontal_padding"/>
+        <attr format="dimension" name="tag_vertical_padding"/>
+        <attr format="dimension" name="tag_text_size"/>
+        <attr format="dimension" name="tag_bd_distance"/>
+        <attr format="color" name="tag_text_color"/>
+        <attr format="color" name="tag_border_color"/>
+        <attr format="color" name="tag_background_color"/>
+        <attr format="integer" name="tag_max_length"/>
+        <attr format="boolean" name="tag_clickable"/>
+        <attr format="enum" name="tag_theme">
+            <enum name="none" value="-1"/>
+            <enum name="random" value="0"/>
+            <enum name="pure_cyan" value="1"/>
+            <enum name="pure_teal" value="2"/>
+        </attr>
+        <attr format="enum" name="tag_text_direction">
+            <enum name="ltr" value="3"/>
+            <enum name="rtl" value="4"/>
+        </attr>
+
+        <attr format="color" name="tag_ripple_color"/>
+        <attr format="integer" name="tag_ripple_alpha"/>
+        <attr format="integer" name="tag_ripple_duration"/>
+
+        <attr format="boolean" name="tag_enable_cross"/>
+        <attr format="dimension" name="tag_cross_width"/>
+        <attr format="color" name="tag_cross_color"/>
+        <attr format="dimension" name="tag_cross_line_width"/>
+        <attr format="dimension" name="tag_cross_area_padding"/>
+        <attr format="boolean" name="tag_support_letters_rlt"/>
+        <attr format="reference" name="tag_background"/>
+    </declare-styleable>
+    <declare-styleable name="ExpandableTextView">
+        <attr format="integer" name="maxCollapsedLines"/>
+        <attr format="integer" name="animDuration"/>
+        <attr format="dimension" name="contentTextSize"/>
+        <attr format="color" name="contentTextColor"/>
+        <attr format="float" name="contentLineSpacingMultiplier"/>
+        <attr format="reference" name="expandDrawable"/>
+        <attr format="string" name="expandText"/>
+        <attr format="string" name="viewMoreTextColor"/>
+        <attr format="dimension" name="contentViewMoreTextSize"/>
+        <attr format="reference" name="collapseDrawable"/>
+        <attr format="string" name="collapseText"/>
+        <attr format="color" name="expandCollapseTextColor"/>
+        <attr name="DrawableAndTextGravity">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="IconTextView">
+        <attr format="boolean" name="itv_revampVersion"/>
+    </declare-styleable>
+</resources>

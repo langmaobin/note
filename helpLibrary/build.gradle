@@ -1,0 +1,149 @@
+buildscript {
+    ext {
+        mCompileSdkVersion = 30
+        mBuildToolsVersion = '30.0.2'
+        vAviAnimation = '2.1.3'
+        vButterknife = '10.2.1'
+        vGreenDao = '2.1.0'
+        vGson = '2.8.4'
+        vIntuit = '1.0.6'
+        vMultiDex = '1.0.3'
+        vMultiImageSelector = '1.2'
+        vPicasso = '2.5.2'
+        vRetrofit = '2.6.0'
+        vRoundedImageView = '2.3.0'
+        vRxAndroid = '2.1.0'
+        vRxJava = '2.1.3'
+        vSmoothAppBarLayout = '25.3.1.0'
+        vStetho = '1.5.1'
+        vSupportLibrary = '28.0.0'
+        vSupportLibraryV4 = '28.0.0'
+        vInterceptor = '3.4.1'
+        vQRcodeGenerator = '3.0.1'
+    }
+    repositories {
+        jcenter()
+        mavenCentral()
+        google()
+    }
+    dependencies {
+        classpath "com.jakewharton:butterknife-gradle-plugin:$vButterknife"
+    }
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'com.jakewharton.butterknife'
+
+android {
+    compileSdkVersion mCompileSdkVersion
+    buildToolsVersion mBuildToolsVersion
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion mCompileSdkVersion
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    publishNonDefault true
+    flavorDimensions "main"
+
+    productFlavors {
+        def BOOLEAN = "boolean"
+        def IS_MOCK = "IS_MOCK"
+        def IS_DEBUG = "IS_DEBUG"
+        def IS_GOOGLE_PLAY = "IS_GOOGLE_PLAY"
+        def VAR_TRUE = "true"
+        def VAR_FALSE = "false"
+        def CHANNEL_NAME = "channel"
+
+        development {
+            buildConfigField BOOLEAN, IS_MOCK, VAR_TRUE
+            buildConfigField BOOLEAN, IS_DEBUG, VAR_TRUE
+            buildConfigField BOOLEAN, IS_GOOGLE_PLAY, VAR_FALSE
+            buildConfigField "String", CHANNEL_NAME, "\"android-dev\""
+        }
+        website {
+            buildConfigField BOOLEAN, IS_MOCK, VAR_FALSE
+            buildConfigField BOOLEAN, IS_DEBUG, VAR_FALSE
+            buildConfigField BOOLEAN, IS_GOOGLE_PLAY, VAR_FALSE
+            buildConfigField "String", CHANNEL_NAME, "\"android-website\""
+        }
+        googleplay {
+            buildConfigField BOOLEAN, IS_MOCK, VAR_FALSE
+            buildConfigField BOOLEAN, IS_DEBUG, VAR_FALSE
+            buildConfigField BOOLEAN, IS_GOOGLE_PLAY, VAR_TRUE
+            buildConfigField "String", CHANNEL_NAME, "\"android-googleplay\""
+        }
+    }
+    dexOptions {
+        preDexLibraries false
+    }
+    lintOptions {
+        abortOnError false
+        checkReleaseBuilds false
+        disable 'PrivateResource'
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/rxjava.properties'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'androidx.appcompat:appcompat:1.3.1'
+    compile 'androidx.cardview:cardview:1.0.0'
+    compile 'com.google.android.material:material:1.4.0'
+    compile 'androidx.recyclerview:recyclerview:1.2.1'
+    compile 'androidx.legacy:legacy-support-v4:1.0.0'
+    compile 'androidx.multidex:multidex:2.0.1'
+    compile "com.facebook.stetho:stetho:$vStetho"
+    compile "com.github.lovetuzitong:MultiImageSelector:1.2"
+    implementation "com.google.code.gson:gson:2.8.7"
+    compile "com.intuit.sdp:sdp-android:$vIntuit"
+    compile "com.intuit.ssp:ssp-android:$vIntuit"
+    compile "com.jakewharton:butterknife:10.2.3"
+    compile "com.makeramen:roundedimageview:$vRoundedImageView"
+    compile "com.squareup.okhttp3:logging-interceptor:4.9.1"
+    compile "com.squareup.picasso:picasso:$vPicasso"
+    compile "com.squareup.retrofit2:adapter-rxjava:$vRetrofit"
+    compile "com.squareup.retrofit2:converter-gson:2.9.0"
+    compile "com.squareup.retrofit2:retrofit:2.9.0"
+    compile "com.wang.avi:library:$vAviAnimation"
+    compile "de.greenrobot:greendao:$vGreenDao"
+    compile "io.reactivex.rxjava2:rxandroid:2.1.1"
+    compile "io.reactivex.rxjava2:rxjava:2.2.9"
+    compile "me.henrytao:smooth-app-bar-layout:$vSmoothAppBarLayout"
+    compile "com.google.zxing:core:3.3.3"
+    compile 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
+    compile 'cn.finalteam:toolsfinal:1.1.4'
+    annotationProcessor "com.jakewharton:butterknife-compiler:$vButterknife"
+}
+
+task deleteJar(type: Delete) {
+    delete 'libs/lib.jar'
+}
+
+task createJar(type: Copy) {
+    from('build/intermediates/bundles/release/')
+    into('libs/')
+    include('classes.jar')
+    rename('classes.jar', 'lib.jar')
+}
+
+createJar.dependsOn(deleteJar, build)

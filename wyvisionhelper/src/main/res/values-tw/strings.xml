@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_base">Base</string>
+
+    <!-- IconTextView Code List -->
+    <string name="icon_moveup2">&#xe027;</string>
+    <string name="icon_movedown">&#xe00a;</string>
+    <string name="icon_moveleft3">&#xe054;</string>
+
+    <!-- API -->
+    <string name="__t_api_status_alert_success">成功</string>
+    <string name="__t_api_status_alert_invalid_signature">處理您的請求時遇到錯誤，請稍後再試。</string>
+    <string name="__t_api_status_alert_invalid_host_ip">處理您的請求時遇到錯誤，請稍後再試。</string>
+    <string name="__t_api_status_alert_invalid_login_token">您的會話已過期，請重新登錄。</string>
+    <string name="__t_api_status_alert_invalid_ws_id">處理您的請求時遇到錯誤，請稍後再試。</string>
+    <string name="__t_api_status_alert_account_suspended">您的帳戶已被暫停，聯繫管理員了解更多詳情。</string>
+    <string name="__t_api_status_alert_email_reported">您的郵箱已被舉報，聯繫管理員了解更多詳情</string>
+    <string name="__t_api_status_alert_email_updated">您的郵箱已更新，請重新登錄。</string>
+    <string name="__t_api_status_alert_server_maintenance">我們的服務器正在維護中，請稍後再試。</string>
+    <string name="__t_api_status_alert_server_error">處理您的請求時遇到錯誤，請稍後再試。</string>
+    <string name="__t_api_status_alert_unknown_system_error">我們遇到了一個未知錯誤，請再試一次。</string>
+</resources>

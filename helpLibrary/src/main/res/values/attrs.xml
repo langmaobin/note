@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SegmentedRadioGroup">
+        <attr name="srg_borderWidth" format="dimension" />
+        <attr name="srg_cornerRadius" format="dimension" />
+        <attr name="srg_checkedTextColor" format="color" />
+        <attr name="srg_tintBorderColor" format="color" />
+        <attr name="srg_tintColor" format="color" />
+        <attr name="srg_uncheckedTextColor" format="color" />
+        <attr name="srg_uncheckedTintColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="LoadingDots">
+        <attr name="ldots_autoPlay" format="boolean" />
+        <attr name="ldots_dotsColor" format="color" />
+        <attr name="ldots_dotsCount" format="integer" />
+        <attr name="ldots_dotsSize" format="dimension" />
+        <attr name="ldots_dotsSpace" format="dimension" />
+        <attr name="ldots_loopDuration" format="integer" />
+        <attr name="ldots_loopStartDelay" format="integer" />
+        <attr name="ldots_jumpDuration" format="integer" />
+        <attr name="ldots_jumpHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TagGroup">
+        <attr name="atg_isAppendMode" format="boolean" />
+        <attr name="atg_inputHint" format="string" />
+        <attr name="atg_borderColor" format="color" />
+        <attr name="atg_textColor" format="color" />
+        <attr name="atg_backgroundColor" format="color" />
+        <attr name="atg_dashBorderColor" format="color" />
+        <attr name="atg_inputHintColor" format="color" />
+        <attr name="atg_inputTextColor" format="color" />
+        <attr name="atg_checkedBorderColor" format="color" />
+        <attr name="atg_checkedTextColor" format="color" />
+        <attr name="atg_checkedMarkerColor" format="color" />
+        <attr name="atg_checkedBackgroundColor" format="color" />
+        <attr name="atg_pressedBackgroundColor" format="color" />
+        <attr name="atg_borderStrokeWidth" format="dimension" />
+        <attr name="atg_textSize" format="dimension" />
+        <attr name="atg_horizontalSpacing" format="dimension" />
+        <attr name="atg_verticalSpacing" format="dimension" />
+        <attr name="atg_horizontalPadding" format="dimension" />
+        <attr name="atg_verticalPadding" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TagGroupThemes">
+        <attr name="tagGroupStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_borderWidth" format="dimension" />
+        <attr name="civ_borderColor" format="color" />
+        <attr name="civ_borderOverlay" format="boolean" />
+        <attr name="civ_fillColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="UltimateViewPager">
+        <attr name="uvp_wrapContentHeight" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CurrencyEditText">
+        <attr name="cet_enableDefaultHint" format="boolean" />
+        <attr name="cet_allowNegativeValues" format="boolean" />
+        <attr name="cet_showCurrencySymbol" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MobileNumberEditText">
+        <attr name="mnet_enableDefaultPrefix" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomPullRefreshLayout">
+        <attr name="cprl_refreshType" format="enum">
+            <enum name="material" value="0" />
+            <enum name="circles" value="1" />
+            <enum name="water_drop" value="2" />
+            <enum name="ring" value="3" />
+            <enum name="smartisan" value="4" />
+        </attr>
+        <attr name="cprl_refreshColors" format="reference" />
+        <attr name="cprl_refreshColor" format="reference" />
+        <attr name="cprl_backgroundColor" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MaskImage">
+        <attr name="mskimg_image" format="reference" />
+        <attr name="mskimg_mask" format="reference" />
+        <attr name="mskimg_frame" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PanoramaImageView">
+        <attr name="piv_enablePanoramaMode" format="boolean" />
+        <attr name="piv_invertScrollDirection" format="boolean" />
+        <attr name="piv_showScrollbar" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="DiscreteScrollView">
+        <attr name="dsv_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="EditTextDrawable">
+        <attr name="etd_compoundDrawableWidth" format="dimension" />
+        <attr name="etd_compoundDrawableHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TextViewProgress">
+        <attr name="tvp_progressTextColor" format="color" />
+        <attr name="tvp_progressTextSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="SwipeLayout">
+        <attr name="drag_edge">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+            <flag name="top" value="4" />
+            <flag name="bottom" value="8" />
+        </attr>
+        <attr name="leftEdgeSwipeOffset" format="dimension" />
+        <attr name="rightEdgeSwipeOffset" format="dimension" />
+        <attr name="topEdgeSwipeOffset" format="dimension" />
+        <attr name="bottomEdgeSwipeOffset" format="dimension" />
+        <attr name="show_mode" format="enum">
+            <enum name="lay_down" value="0" />
+            <enum name="pull_out" value="1" />
+        </attr>
+        <attr name="clickToClose" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PrefixEditText">
+        <attr name="pet_defaultPrefix" format="string" />
+    </declare-styleable>
+
+    <attr name="fontPath" format="string" />
+
+</resources>

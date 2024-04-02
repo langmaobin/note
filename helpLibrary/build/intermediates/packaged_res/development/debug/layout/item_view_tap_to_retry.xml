@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_tap_to_retry"
+    style="@style/AdapterItemStyle">
+
+    <ImageView
+        android:id="@+id/iv_tap_to_retry"
+        android:layout_width="@dimen/_16sdp"
+        android:layout_height="@dimen/_16sdp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@null"
+        android:gravity="center"
+        android:tint="#00ADEE"
+        app:srcCompat="@drawable/ic_retry" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_tap_to_retry"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:gravity="center"
+        android:text="@string/__t_global_text_tap_to_retry"
+        android:textSize="@dimen/_9ssp"
+        android:visibility="visible" />
+
+    <!--<ImageView-->
+    <!--android:id="@+id/iv_tap_to_retry"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:contentDescription="@null"-->
+    <!--android:gravity="center"-->
+    <!--android:src="@drawable/img_tap_to_retry"-->
+    <!--android:tint="@color/color_grey_0400" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_tap_to_retry"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/iv_tap_to_retry"-->
+    <!--android:layout_marginTop="@dimen/_3sdp"-->
+    <!--android:gravity="center"-->
+    <!--android:text="@string/__T.global.tap.to.retry"-->
+    <!--android:textSize="@dimen/_13ssp"-->
+    <!--android:visibility="gone" />-->
+
+</RelativeLayout>

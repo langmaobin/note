@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ywvision.wyvisionhelper" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="30" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name_base"
+        android:supportsRtl="true"
+        tools:replace="android:label" />
+
+</manifest>

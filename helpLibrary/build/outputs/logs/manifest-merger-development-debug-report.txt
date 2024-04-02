@@ -1,0 +1,59 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:1:1-18:12
+INJECTED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:1:1-18:12
+INJECTED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:1:1-18:12
+	package
+		ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:2:5-22
+		INJECTED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml
+		INJECTED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:4:22-76
+uses-permission#android.permission.CAMERA
+ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:5:22-62
+uses-permission#android.permission.INTERNET
+ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:7:22-78
+application
+ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:9:5-16:19
+	android:supportsRtl
+		ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:11:9-45
+	android:allowBackup
+		ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:10:9-35
+	android:usesCleartextTraffic
+		ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:12:9-44
+activity#com.lib.widget.swipegallery.SwipeGalleryActivity
+ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:14:9-78
+	android:name
+		ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:14:19-75
+activity#com.lib.widget.GalleryImageSelectorActivity
+ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:15:9-73
+	android:name
+		ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml:15:19-70
+uses-sdk
+INJECTED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml
+INJECTED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml
+INJECTED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml
+INJECTED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml
+		ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml
+		INJECTED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml
+		ADDED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml
+		INJECTED from D:\cebian\notes\helpLibrary\src\main\AndroidManifest.xml

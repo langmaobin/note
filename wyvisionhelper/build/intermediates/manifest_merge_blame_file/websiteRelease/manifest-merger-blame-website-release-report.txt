@@ -1,0 +1,23 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.ywvision.wyvisionhelper" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="21"
+7-->D:\cebian\SlidingRootNav-master\wyvisionhelper\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="30" />
+8-->D:\cebian\SlidingRootNav-master\wyvisionhelper\src\main\AndroidManifest.xml
+9
+10    <application
+10-->D:\cebian\SlidingRootNav-master\wyvisionhelper\src\main\AndroidManifest.xml:5:5-9:41
+11        android:allowBackup="true"
+11-->D:\cebian\SlidingRootNav-master\wyvisionhelper\src\main\AndroidManifest.xml:6:9-35
+12        android:label="@string/app_name_base"
+12-->D:\cebian\SlidingRootNav-master\wyvisionhelper\src\main\AndroidManifest.xml:7:9-46
+13        android:supportsRtl="true"
+13-->D:\cebian\SlidingRootNav-master\wyvisionhelper\src\main\AndroidManifest.xml:8:9-35
+14        tools:replace="android:label" />
+14-->D:\cebian\SlidingRootNav-master\wyvisionhelper\src\main\AndroidManifest.xml:9:9-38
+15
+16</manifest>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr">
+
+    <FrameLayout
+        android:id="@+id/main_fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linear_layout_tab"
+        android:background="@color/color_app_yellow_white_light" />
+
+    <LinearLayout
+        android:id="@+id/linear_layout_tab"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/pickerview_topbar_title"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linear_layout_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_view_home"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:background="@drawable/home_select"
+                android:layout_marginBottom="@dimen/_3sdp" />
+
+            <com.android.notes.sample.widget.CheckableTextView
+                android:id="@+id/text_view_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/__t_home_title"
+                android:textColor="@color/bgc2"
+                android:textSize="@dimen/_9ssp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_add"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_view_add"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:background="@drawable/home_add"
+                android:layout_marginBottom="@dimen/_3sdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_summary"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_view_summary"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:background="@drawable/summary_select"
+                android:layout_marginBottom="@dimen/_3sdp" />
+
+            <com.android.notes.sample.widget.CheckableTextView
+                android:id="@+id/text_view_summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/__t_home_summary"
+                android:textColor="@color/bgc2"
+                android:textSize="@dimen/_9ssp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

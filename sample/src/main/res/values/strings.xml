@@ -1,0 +1,20 @@
+<resources>
+    <string name="appName">Notes</string>
+    <string name="account_balance">Account Balance</string>
+    <string name="balance_currency">$</string>
+    <string name="balance_amount">524.99</string>
+
+    <string name="__t_application_alert_request_permission_not_now">暂时不用</string>
+    <string name="__t_application_alert_request_permission_message_access_camera" formatted="false">允许%s访问您的相机。转到“设置和权限”并将“相机”设置为“开”。</string>
+    <string name="__t_application_alert_request_permission_message_access_contacts" formatted="false">允许%s访问您的联系人。转到“设置和权限”并将“联系人”设置为“开”。</string>
+    <string name="__t_application_alert_request_permission_message_access_storage" formatted="false">允许%s访问您的设备存储空间。转到“设置和权限”并将“存储”设置为“开”。</string>
+    <string name="__t_application_alert_request_permission_message_access_camera_storage" formatted="false">允许%s访问您的相机和设备存储空间。转到“设置和权限”并将“相机和存储”设置为“开”。</string>
+    <string name="__t_application_alert_request_permission_message_access_fine_location" formatted="false">允许%s访问您的麦克风和设备存储。转到“设置和权限”并将“麦克风和存储”设置为“开”</string>
+
+    <string name="__t_home_title">Home</string>
+    <string name="__t_home_summary">Summary</string>
+
+    <string name="__t_record">This topic has a total of %s records</string>
+
+
+</resources>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\cebian\notes\helpLibrary\src\main\res"/><source path="D:\cebian\notes\helpLibrary\build\generated\res\rs\development\debug"/><source path="D:\cebian\notes\helpLibrary\build\generated\res\resValues\development\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\cebian\notes\helpLibrary\src\main\res"><file name="anim_bounce_in" path="D:\cebian\notes\helpLibrary\src\main\res\anim\anim_bounce_in.xml" qualifiers="" type="anim"/><file name="anim_bounce_out" path="D:\cebian\notes\helpLibrary\src\main\res\anim\anim_bounce_out.xml" qualifiers="" type="anim"/><file name="anim_fade_in_with_dark_bg" path="D:\cebian\notes\helpLibrary\src\main\res\anim\anim_fade_in_with_dark_bg.xml" qualifiers="" type="anim"/><file name="anim_fade_out_with_dark_bg" path="D:\cebian\notes\helpLibrary\src\main\res\anim\anim_fade_out_with_dark_bg.xml" qualifiers="" type="anim"/><file name="anim_slide_down" path="D:\cebian\notes\helpLibrary\src\main\res\anim\anim_slide_down.xml" qualifiers="" type="anim"/><file name="anim_slide_down_animation" path="D:\cebian\notes\helpLibrary\src\main\res\anim\anim_slide_down_animation.xml" qualifiers="" type="anim"/><file name="anim_slide_down_animation_2" path="D:\cebian\notes\helpLibrary\src\main\res\anim\anim_slide_down_animation_2.xml" qualifiers="" type="anim"/><file name="anim_slide_left_animation" path="D:\cebian\notes\helpLibrary\src\main\res\anim\anim_slide_left_animation.xml" qualifiers="" type="anim"/><file name="anim_slide_right_animation" path="D:\cebian\notes\helpLibrary\src\main\res\anim\anim_slide_right_animation.xml" qualifiers="" type="anim"/><file name="anim_slide_up" path="D:\cebian\notes\helpLibrary\src\main\res\anim\anim_slide_up.xml" qualifiers="" type="anim"/><file name="anim_slide_up_animation" path="D:\cebian\notes\helpLibrary\src\main\res\anim\anim_slide_up_animation.xml" qualifiers="" type="anim"/><file name="anim_slide_up_animation_2" path="D:\cebian\notes\helpLibrary\src\main\res\anim\anim_slide_up_animation_2.xml" qualifiers="" type="anim"/><file name="anime_loading_1" path="D:\cebian\notes\helpLibrary\src\main\res\drawable\anime_loading_1.png" qualifiers="" type="drawable"/><file name="anime_loading_2" path="D:\cebian\notes\helpLibrary\src\main\res\drawable\anime_loading_2.png" qualifiers="" type="drawable"/><file name="anime_loading_3" path="D:\cebian\notes\helpLibrary\src\main\res\drawable\anime_loading_3.png" qualifiers="" type="drawable"/><file name="anime_loading_4" path="D:\cebian\notes\helpLibrary\src\main\res\drawable\anime_loading_4.png" qualifiers="" type="drawable"/><file name="ic_center_profile" path="D:\cebian\notes\helpLibrary\src\main\res\drawable\ic_center_profile.png" qualifiers="" type="drawable"/><file name="ic_progress1" path="D:\cebian\notes\helpLibrary\src\main\res\drawable\ic_progress1.png" qualifiers="" type="drawable"/><file name="ic_progress2" path="D:\cebian\notes\helpLibrary\src\main\res\drawable\ic_progress2.png" qualifiers="" type="drawable"/><file name="ic_progress3" path="D:\cebian\notes\helpLibrary\src\main\res\drawable\ic_progress3.png" qualifiers="" type="drawable"/><file name="ic_progress4" path="D:\cebian\notes\helpLibrary\src\main\res\drawable\ic_progress4.png" qualifiers="" type="drawable"/><file name="ic_retry" path="D:\cebian\notes\helpLibrary\src\main\res\drawable\ic_retry.xml" qualifiers="" type="drawable"/><file name="image_femaleprofile" path="D:\cebian\notes\helpLibrary\src\main\res\drawable\image_femaleprofile.png" qualifiers="" type="drawable"/><file name="image_profile" path="D:\cebian\notes\helpLibrary\src\main\res\drawable\image_profile.png" qualifiers="" type="drawable"/><file name="ripple_btn_white" path="D:\cebian\notes\helpLibrary\src\main\res\drawable\ripple_btn_white.xml" qualifiers="" type="drawable"/><file name="segmentedradgrp_checked" path="D:\cebian\notes\helpLibrary\src\main\res\drawable\segmentedradgrp_checked.xml" qualifiers="" type="drawable"/><file name="segmentedradgrp_unchecked" path="D:\cebian\notes\helpLibrary\src\main\res\drawable\segmentedradgrp_unchecked.xml" qualifiers="" type="drawable"/><file name="shape_line_divider" path="D:\cebian\notes\helpLibrary\src\main\res\drawable\shape_line_divider.xml" qualifiers="" type="drawable"/><file name="shape_loading_dot" path="D:\cebian\notes\helpLibrary\src\main\res\drawable\shape_loading_dot.xml" qualifiers="" type="drawable"/><file name="swipegallery_dot_normal" path="D:\cebian\notes\helpLibrary\src\main\res\drawable\swipegallery_dot_normal.xml" qualifiers="" type="drawable"/><file name="swipegallery_dot_selected" path="D:\cebian\notes\helpLibrary\src\main\res\drawable\swipegallery_dot_selected.xml" qualifiers="" type="drawable"/><file name="img_placeholder" path="D:\cebian\notes\helpLibrary\src\main\res\drawable-hdpi\img_placeholder.png" qualifiers="hdpi-v4" type="drawable"/><file name="img_placeholder" path="D:\cebian\notes\helpLibrary\src\main\res\drawable-mdpi\img_placeholder.png" qualifiers="mdpi-v4" type="drawable"/><file name="img_placeholder" path="D:\cebian\notes\helpLibrary\src\main\res\drawable-nodpi\img_placeholder.png" qualifiers="nodpi-v4" type="drawable"/><file name="ripple_btn_white" path="D:\cebian\notes\helpLibrary\src\main\res\drawable-v21\ripple_btn_white.xml" qualifiers="v21" type="drawable"/><file name="img_placeholder" path="D:\cebian\notes\helpLibrary\src\main\res\drawable-xhdpi\img_placeholder.png" qualifiers="xhdpi-v4" type="drawable"/><file name="banner_default" path="D:\cebian\notes\helpLibrary\src\main\res\drawable-xxhdpi\banner_default.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="img_placeholder" path="D:\cebian\notes\helpLibrary\src\main\res\drawable-xxhdpi\img_placeholder.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="img_placeholder" path="D:\cebian\notes\helpLibrary\src\main\res\drawable-xxxhdpi\img_placeholder.png" qualifiers="xxxhdpi-v4" type="drawable"/><file name="activity_swipe_gallery" path="D:\cebian\notes\helpLibrary\src\main\res\layout\activity_swipe_gallery.xml" qualifiers="" type="layout"/><file name="item_swipe_gallery" path="D:\cebian\notes\helpLibrary\src\main\res\layout\item_swipe_gallery.xml" qualifiers="" type="layout"/><file name="item_view_last" path="D:\cebian\notes\helpLibrary\src\main\res\layout\item_view_last.xml" qualifiers="" type="layout"/><file name="item_view_loading" path="D:\cebian\notes\helpLibrary\src\main\res\layout\item_view_loading.xml" qualifiers="" type="layout"/><file name="item_view_tap_to_retry" path="D:\cebian\notes\helpLibrary\src\main\res\layout\item_view_tap_to_retry.xml" qualifiers="" type="layout"/><file name="view_exception_layout" path="D:\cebian\notes\helpLibrary\src\main\res\layout\view_exception_layout.xml" qualifiers="" type="layout"/><file name="view_progress_bar" path="D:\cebian\notes\helpLibrary\src\main\res\layout\view_progress_bar.xml" qualifiers="" type="layout"/><file name="view_toolbar" path="D:\cebian\notes\helpLibrary\src\main\res\layout\view_toolbar.xml" qualifiers="" type="layout"/><file path="D:\cebian\notes\helpLibrary\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="SegmentedRadioGroup">
+        <attr format="dimension" name="srg_borderWidth"/>
+        <attr format="dimension" name="srg_cornerRadius"/>
+        <attr format="color" name="srg_checkedTextColor"/>
+        <attr format="color" name="srg_tintBorderColor"/>
+        <attr format="color" name="srg_tintColor"/>
+        <attr format="color" name="srg_uncheckedTextColor"/>
+        <attr format="color" name="srg_uncheckedTintColor"/>
+    </declare-styleable><declare-styleable name="LoadingDots">
+        <attr format="boolean" name="ldots_autoPlay"/>
+        <attr format="color" name="ldots_dotsColor"/>
+        <attr format="integer" name="ldots_dotsCount"/>
+        <attr format="dimension" name="ldots_dotsSize"/>
+        <attr format="dimension" name="ldots_dotsSpace"/>
+        <attr format="integer" name="ldots_loopDuration"/>
+        <attr format="integer" name="ldots_loopStartDelay"/>
+        <attr format="integer" name="ldots_jumpDuration"/>
+        <attr format="dimension" name="ldots_jumpHeight"/>
+    </declare-styleable><declare-styleable name="TagGroup">
+        <attr format="boolean" name="atg_isAppendMode"/>
+        <attr format="string" name="atg_inputHint"/>
+        <attr format="color" name="atg_borderColor"/>
+        <attr format="color" name="atg_textColor"/>
+        <attr format="color" name="atg_backgroundColor"/>
+        <attr format="color" name="atg_dashBorderColor"/>
+        <attr format="color" name="atg_inputHintColor"/>
+        <attr format="color" name="atg_inputTextColor"/>
+        <attr format="color" name="atg_checkedBorderColor"/>
+        <attr format="color" name="atg_checkedTextColor"/>
+        <attr format="color" name="atg_checkedMarkerColor"/>
+        <attr format="color" name="atg_checkedBackgroundColor"/>
+        <attr format="color" name="atg_pressedBackgroundColor"/>
+        <attr format="dimension" name="atg_borderStrokeWidth"/>
+        <attr format="dimension" name="atg_textSize"/>
+        <attr format="dimension" name="atg_horizontalSpacing"/>
+        <attr format="dimension" name="atg_verticalSpacing"/>
+        <attr format="dimension" name="atg_horizontalPadding"/>
+        <attr format="dimension" name="atg_verticalPadding"/>
+    </declare-styleable><declare-styleable name="TagGroupThemes">
+        <attr format="reference" name="tagGroupStyle"/>
+    </declare-styleable><declare-styleable name="CircleImageView">
+        <attr format="dimension" name="civ_borderWidth"/>
+        <attr format="color" name="civ_borderColor"/>
+        <attr format="boolean" name="civ_borderOverlay"/>
+        <attr format="color" name="civ_fillColor"/>
+    </declare-styleable><declare-styleable name="UltimateViewPager">
+        <attr format="boolean" name="uvp_wrapContentHeight"/>
+    </declare-styleable><declare-styleable name="CurrencyEditText">
+        <attr format="boolean" name="cet_enableDefaultHint"/>
+        <attr format="boolean" name="cet_allowNegativeValues"/>
+        <attr format="boolean" name="cet_showCurrencySymbol"/>
+    </declare-styleable><declare-styleable name="MobileNumberEditText">
+        <attr format="boolean" name="mnet_enableDefaultPrefix"/>
+    </declare-styleable><declare-styleable name="CustomPullRefreshLayout">
+        <attr format="enum" name="cprl_refreshType">
+            <enum name="material" value="0"/>
+            <enum name="circles" value="1"/>
+            <enum name="water_drop" value="2"/>
+            <enum name="ring" value="3"/>
+            <enum name="smartisan" value="4"/>
+        </attr>
+        <attr format="reference" name="cprl_refreshColors"/>
+        <attr format="reference" name="cprl_refreshColor"/>
+        <attr format="reference" name="cprl_backgroundColor"/>
+    </declare-styleable><declare-styleable name="MaskImage">
+        <attr format="reference" name="mskimg_image"/>
+        <attr format="reference" name="mskimg_mask"/>
+        <attr format="reference" name="mskimg_frame"/>
+    </declare-styleable><declare-styleable name="PanoramaImageView">
+        <attr format="boolean" name="piv_enablePanoramaMode"/>
+        <attr format="boolean" name="piv_invertScrollDirection"/>
+        <attr format="boolean" name="piv_showScrollbar"/>
+    </declare-styleable><declare-styleable name="DiscreteScrollView">
+        <attr format="enum" name="dsv_orientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+    </declare-styleable><declare-styleable name="EditTextDrawable">
+        <attr format="dimension" name="etd_compoundDrawableWidth"/>
+        <attr format="dimension" name="etd_compoundDrawableHeight"/>
+    </declare-styleable><declare-styleable name="TextViewProgress">
+        <attr format="color" name="tvp_progressTextColor"/>
+        <attr format="dimension" name="tvp_progressTextSize"/>
+    </declare-styleable><declare-styleable name="SwipeLayout">
+        <attr name="drag_edge">
+            <flag name="left" value="1"/>
+            <flag name="right" value="2"/>
+            <flag name="top" value="4"/>
+            <flag name="bottom" value="8"/>
+        </attr>
+        <attr format="dimension" name="leftEdgeSwipeOffset"/>
+        <attr format="dimension" name="rightEdgeSwipeOffset"/>
+        <attr format="dimension" name="topEdgeSwipeOffset"/>
+        <attr format="dimension" name="bottomEdgeSwipeOffset"/>
+        <attr format="enum" name="show_mode">
+            <enum name="lay_down" value="0"/>
+            <enum name="pull_out" value="1"/>
+        </attr>
+        <attr format="boolean" name="clickToClose"/>
+    </declare-styleable><declare-styleable name="PrefixEditText">
+        <attr format="string" name="pet_defaultPrefix"/>
+    </declare-styleable><attr format="string" name="fontPath"/></file><file path="D:\cebian\notes\helpLibrary\src\main\res\values\colors.xml" qualifiers=""><color name="color_segmentedradbtn_selected">#FF33B5E5</color><color name="color_segmentedradbtn_unselected">#E0E0E0</color><color name="color_swipegallery_dot_bg_normal">#80212121</color><color name="color_swipegallery_dot_bg_selected">#FFFAFA</color><color name="color_swipegallery_dot_bg_stroke_grey">#9E9E9E</color><color name="color_swipegallery_dot_bg_stroke_white">#FFFFFF</color><color name="color_white">#FFFFFF</color><color name="color_red">#FF0000</color><color name="color_burly_wood">#DEB887</color><color name="color_light_grey">#D3D3D3</color><color name="color_tan">#D2B48C</color><color name="color_dark_gray">#A9A9A9</color><color name="color_gray">#808080</color><color name="color_black">#000000</color><color name="color_red_0500">#F44336</color><color name="color_red_A400">#FF1744</color><color name="color_light_blue_0700">#0288D1</color><color name="color_green_A400">#00E676</color><color name="color_orange_A400">#FF9100</color><color name="color_grey_0100">#F5F5F5</color><color name="color_grey_0200">#EEEEEE</color><color name="color_grey_0300">#E0E0E0</color><color name="color_grey_0400">#BDBDBD</color><color name="color_grey_0500">#9E9E9E</color><color name="color_grey_0700">#616161</color><color name="color_grey_0800">#424242</color><color name="color_app_blue_coral">#7AB4EF</color><color name="color_black_opacity_050">#80000000</color></file><file path="D:\cebian\notes\helpLibrary\src\main\res\values\dimens.xml" qualifiers=""><dimen name="segmentedradgrp_conner_radius">@dimen/_3sdp</dimen><dimen name="segmentedradgrp_stroke_border">1dp</dimen><dimen name="loadingdots_jump_height_default">@dimen/_10sdp</dimen><dimen name="loadingdots_size_default">@dimen/_10sdp</dimen><dimen name="loadingdots_space_default">@dimen/_2sdp</dimen><dimen name="size_toolbar_height">@dimen/_35sdp</dimen><dimen name="size_statusbar_height">@dimen/_25sdp</dimen><dimen name="size_searchbar_height">@dimen/_25sdp</dimen></file><file path="D:\cebian\notes\helpLibrary\src\main\res\values\ids.xml" qualifiers=""/><file path="D:\cebian\notes\helpLibrary\src\main\res\values\public.xml" qualifiers=""><public name="fontPath" type="attr"/></file><file path="D:\cebian\notes\helpLibrary\src\main\res\values\strings.xml" qualifiers=""><string name="app_name_lib">Lib</string><string formatted="false" name="app_text_page_count_formatted">%d/%d</string><string name="__T_global_text_view_more">View More</string><string name="__T_global_text_view_less">View less</string><string name="__T_global_text_add_more">Add More</string><string name="__T_global_text_add_tag">Add Tag</string><string name="__T_global_text_and">And</string><string name="__T_global_text_more">more</string><string name="__T_global_text_image_limit">Photo Limit reached. You can only select 5 items.</string><string name="__t_global_text_click_back_again_to_exit">Click BACK again to exit.</string><string name="__t_global_text_choose_images">Choose images</string><string name="__t_global_text_connection_timeout">A connection timeout occured.</string><string name="__t_global_text_error_while_loading">Error loading data.</string><string name="__t_global_text_invalid_response_return">An Network error has occured.</string><string name="__t_global_text_network_connection_error">Network connection error.</string><string name="__t_global_text_no_response_return">There is no response.</string><string name="__t_global_text_no_result_shows">There are no datas</string><string name="__t_global_text_retry">Retry</string><string name="__t_global_text_tap_to_retry">Tap to Retry</string><string name="__t_global_text_cancel">Cancel</string><string name="__t_global_text_close">Close</string><string name="__t_global_text_done">Done</string><string name="__t_global_text_ok">OK</string><string name="__t_global_network_connection_error">Internet connection error. Please check your internet connection.</string><string name="__t_global_text_error_disconnect_vpn">Connected fail, please retry</string><string name="__T_time_text_just_now">Just now</string><string name="__T_time_text_min_ago">A minute ago</string><string formatted="false" name="__T_time_text_mins_ago">%d minutes ago</string><string name="__T_time_text_hr_ago">An hour ago</string><string formatted="false" name="__T_time_text_hrs_ago">%d hours ago</string><string name="__T_time_text_yesterday">Yesterday</string></file><file path="D:\cebian\notes\helpLibrary\src\main\res\values\styles.xml" qualifiers=""><style name="DividerHorizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/color_white</item>
+    </style><style name="DividerHorizontal2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/color_black</item>
+    </style><style name="AdapterItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_50sdp</item>
+        <item name="android:gravity">center</item>
+    </style><style name="TagGroupDefaultStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="atg_isAppendMode">false</item>
+        <item name="atg_inputHint">@string/__T_global_text_add_tag</item>
+        <item name="atg_borderStrokeWidth">0.5dp</item>
+        <item name="atg_textSize">@dimen/_12ssp</item>
+        <item name="atg_horizontalSpacing">@dimen/_6sdp</item>
+        <item name="atg_verticalSpacing">@dimen/_4sdp</item>
+        <item name="atg_horizontalPadding">@dimen/_10sdp</item>
+        <item name="atg_verticalPadding">@dimen/_3sdp</item>
+        <item name="atg_borderColor">@color/color_burly_wood</item>
+        <item name="atg_textColor">@color/color_white</item>
+        <item name="atg_backgroundColor">@color/color_burly_wood</item>
+        <item name="atg_inputHintColor">@color/color_grey_0400</item>
+        <item name="atg_inputTextColor">@color/color_grey_0400</item>
+        <item name="atg_checkedBorderColor">@color/color_burly_wood</item>
+        <item name="atg_checkedTextColor">@color/color_burly_wood</item>
+        <item name="atg_checkedMarkerColor">@color/color_burly_wood</item>
+        <item name="atg_checkedBackgroundColor">@color/color_white</item>
+        <item name="atg_pressedBackgroundColor">@color/color_tan</item>
+    </style></file><file path="D:\cebian\notes\helpLibrary\src\main\res\values-ms\strings.xml" qualifiers="ms"><string name="__T_global_text_view_more">View More</string><string name="__T_global_text_add_more">Add More</string><string name="__T_global_text_add_tag">Add Tag</string><string name="__T_global_text_and">And</string><string name="__T_global_text_more">more</string><string name="__t_global_text_click_back_again_to_exit">Click BACK again to exit.</string><string name="__t_global_text_choose_images">Choose Images</string><string name="__t_global_text_connection_timeout">A connection timeout occured.</string><string name="__t_global_text_error_while_loading">Error in loading.</string><string name="__t_global_text_invalid_response_return">An Network error has occured.</string><string name="__t_global_text_network_connection_error">Network connection error.</string><string name="__t_global_text_no_response_return">There is no response.</string><string name="__t_global_text_no_result_shows">There are no datas</string><string name="__t_global_text_retry">Retry</string><string name="__t_global_text_tap_to_retry">Tap to Retry</string><string name="__t_global_text_cancel">Cancel</string><string name="__t_global_text_close">Close</string><string name="__t_global_text_done">Done</string><string name="__T_time_text_just_now">Just now</string><string name="__T_time_text_min_ago">A minute ago</string><string formatted="false" name="__T_time_text_mins_ago">%d minutes ago</string><string name="__T_time_text_hr_ago">An hour ago</string><string formatted="false" name="__T_time_text_hrs_ago">%d hours ago</string><string name="__T_time_text_yesterday">Yesterday</string></file><file path="D:\cebian\notes\helpLibrary\src\main\res\values-tw\strings.xml" qualifiers="tw"><string name="app_name_lib">Lib</string><string formatted="false" name="app_text_page_count_formatted">%d/%d</string><string name="__T_global_text_view_more">查看更多</string><string name="__T_global_text_view_less">少看</string><string name="__T_global_text_add_more">添加更多</string><string name="__T_global_text_add_tag">添加標籤</string><string name="__T_global_text_and">和</string><string name="__T_global_text_more">更多</string><string name="__T_global_text_image_limit">達到了照片限制，您只能選擇5個項目。</string><string name="__t_global_text_click_back_again_to_exit">再次單擊BACK退出。</string><string name="__t_global_text_choose_images">選擇圖片</string><string name="__t_global_text_connection_timeout">連接超時</string><string name="__t_global_text_error_while_loading">加載數據時出錯。</string><string name="__t_global_text_invalid_response_return">網絡异常錯誤。</string><string name="__t_global_text_network_connection_error">網絡連接錯誤。</string><string name="__t_global_text_no_response_return">沒有回應。</string><string name="__t_global_text_no_result_shows">暂无数据</string><string name="__t_global_text_retry">重試</string><string name="__t_global_text_tap_to_retry">點擊重試</string><string name="__t_global_text_cancel">取消</string><string name="__t_global_text_close">關</string><string name="__t_global_text_done">完成</string><string name="__t_global_text_ok">好</string><string name="__t_global_network_connection_error">網絡連接錯誤，請檢查網絡連接</string><string name="__t_global_text_error_disconnect_vpn">連接失敗，請重試</string><string name="__T_time_text_just_now">Just now</string><string name="__T_time_text_min_ago">A minute ago</string><string formatted="false" name="__T_time_text_mins_ago">%d minutes ago</string><string name="__T_time_text_hr_ago">An hour ago</string><string formatted="false" name="__T_time_text_hrs_ago">%d hours ago</string><string name="__T_time_text_yesterday">Yesterday</string></file><file path="D:\cebian\notes\helpLibrary\src\main\res\values-zh\strings.xml" qualifiers="zh"><string name="app_name_lib">Lib</string><string formatted="false" name="app_text_page_count_formatted">%d/%d</string><string name="__T_global_text_view_more">查看更多</string><string name="__T_global_text_view_less">少看</string><string name="__T_global_text_add_more">添加更多</string><string name="__T_global_text_add_tag">添加标签</string><string name="__T_global_text_and">和</string><string name="__T_global_text_more">更多</string><string name="__T_global_text_image_limit">达到了照片限制，您只能选择5个项目。</string><string name="__t_global_text_click_back_again_to_exit">再次单击BACK退出。</string><string name="__t_global_text_choose_images">选择图片</string><string name="__t_global_text_connection_timeout">连接超时</string><string name="__t_global_text_error_while_loading">加载数据时出错。</string><string name="__t_global_text_invalid_response_return">网络异常错误。</string><string name="__t_global_text_network_connection_error">网络连接错误。</string><string name="__t_global_text_no_response_return">没有回应。</string><string name="__t_global_text_no_result_shows">暂无数据</string><string name="__t_global_text_retry">重试</string><string name="__t_global_text_tap_to_retry">点击重试</string><string name="__t_global_text_cancel">取消</string><string name="__t_global_text_close">关</string><string name="__t_global_text_done">完成</string><string name="__t_global_text_ok">好</string><string name="__t_global_network_connection_error">网络连接错误，请检查网络连接</string><string name="__t_global_text_error_disconnect_vpn">连接失败，请重试</string><string name="__T_time_text_just_now">Just now</string><string name="__T_time_text_min_ago">A minute ago</string><string formatted="false" name="__T_time_text_mins_ago">%d minutes ago</string><string name="__T_time_text_hr_ago">An hour ago</string><string formatted="false" name="__T_time_text_hrs_ago">%d hours ago</string><string name="__T_time_text_yesterday">Yesterday</string></file></source><source path="D:\cebian\notes\helpLibrary\build\generated\res\rs\development\debug"/><source path="D:\cebian\notes\helpLibrary\build\generated\res\resValues\development\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="development$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\cebian\notes\helpLibrary\src\development\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="development" generated-set="development$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\cebian\notes\helpLibrary\src\development\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\cebian\notes\helpLibrary\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\cebian\notes\helpLibrary\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="developmentDebug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\cebian\notes\helpLibrary\src\developmentDebug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="developmentDebug" generated-set="developmentDebug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\cebian\notes\helpLibrary\src\developmentDebug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="PrefixEditText">
+        <attr format="string" name="pet_defaultPrefix"/>
+    </declare-styleable><declare-styleable name="TagGroup">
+        <attr format="boolean" name="atg_isAppendMode"/>
+        <attr format="string" name="atg_inputHint"/>
+        <attr format="color" name="atg_borderColor"/>
+        <attr format="color" name="atg_textColor"/>
+        <attr format="color" name="atg_backgroundColor"/>
+        <attr format="color" name="atg_dashBorderColor"/>
+        <attr format="color" name="atg_inputHintColor"/>
+        <attr format="color" name="atg_inputTextColor"/>
+        <attr format="color" name="atg_checkedBorderColor"/>
+        <attr format="color" name="atg_checkedTextColor"/>
+        <attr format="color" name="atg_checkedMarkerColor"/>
+        <attr format="color" name="atg_checkedBackgroundColor"/>
+        <attr format="color" name="atg_pressedBackgroundColor"/>
+        <attr format="dimension" name="atg_borderStrokeWidth"/>
+        <attr format="dimension" name="atg_textSize"/>
+        <attr format="dimension" name="atg_horizontalSpacing"/>
+        <attr format="dimension" name="atg_verticalSpacing"/>
+        <attr format="dimension" name="atg_horizontalPadding"/>
+        <attr format="dimension" name="atg_verticalPadding"/>
+    </declare-styleable><declare-styleable name="TextViewProgress">
+        <attr format="color" name="tvp_progressTextColor"/>
+        <attr format="dimension" name="tvp_progressTextSize"/>
+    </declare-styleable><declare-styleable name="DiscreteScrollView">
+        <attr format="enum" name="dsv_orientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+    </declare-styleable><declare-styleable name="CurrencyEditText">
+        <attr format="boolean" name="cet_enableDefaultHint"/>
+        <attr format="boolean" name="cet_allowNegativeValues"/>
+        <attr format="boolean" name="cet_showCurrencySymbol"/>
+    </declare-styleable><declare-styleable name="MaskImage">
+        <attr format="reference" name="mskimg_image"/>
+        <attr format="reference" name="mskimg_mask"/>
+        <attr format="reference" name="mskimg_frame"/>
+    </declare-styleable><declare-styleable name="PanoramaImageView">
+        <attr format="boolean" name="piv_enablePanoramaMode"/>
+        <attr format="boolean" name="piv_invertScrollDirection"/>
+        <attr format="boolean" name="piv_showScrollbar"/>
+    </declare-styleable><declare-styleable name="CircleImageView">
+        <attr format="dimension" name="civ_borderWidth"/>
+        <attr format="color" name="civ_borderColor"/>
+        <attr format="boolean" name="civ_borderOverlay"/>
+        <attr format="color" name="civ_fillColor"/>
+    </declare-styleable><declare-styleable name="EditTextDrawable">
+        <attr format="dimension" name="etd_compoundDrawableWidth"/>
+        <attr format="dimension" name="etd_compoundDrawableHeight"/>
+    </declare-styleable><declare-styleable name="UltimateViewPager">
+        <attr format="boolean" name="uvp_wrapContentHeight"/>
+    </declare-styleable><declare-styleable name="LoadingDots">
+        <attr format="boolean" name="ldots_autoPlay"/>
+        <attr format="color" name="ldots_dotsColor"/>
+        <attr format="integer" name="ldots_dotsCount"/>
+        <attr format="dimension" name="ldots_dotsSize"/>
+        <attr format="dimension" name="ldots_dotsSpace"/>
+        <attr format="integer" name="ldots_loopDuration"/>
+        <attr format="integer" name="ldots_loopStartDelay"/>
+        <attr format="integer" name="ldots_jumpDuration"/>
+        <attr format="dimension" name="ldots_jumpHeight"/>
+    </declare-styleable><declare-styleable name="SwipeLayout">
+        <attr name="drag_edge">
+            <flag name="left" value="1"/>
+            <flag name="right" value="2"/>
+            <flag name="top" value="4"/>
+            <flag name="bottom" value="8"/>
+        </attr>
+        <attr format="dimension" name="leftEdgeSwipeOffset"/>
+        <attr format="dimension" name="rightEdgeSwipeOffset"/>
+        <attr format="dimension" name="topEdgeSwipeOffset"/>
+        <attr format="dimension" name="bottomEdgeSwipeOffset"/>
+        <attr format="enum" name="show_mode">
+            <enum name="lay_down" value="0"/>
+            <enum name="pull_out" value="1"/>
+        </attr>
+        <attr format="boolean" name="clickToClose"/>
+    </declare-styleable><declare-styleable name="TagGroupThemes">
+        <attr format="reference" name="tagGroupStyle"/>
+    </declare-styleable><declare-styleable name="CustomPullRefreshLayout">
+        <attr format="enum" name="cprl_refreshType">
+            <enum name="material" value="0"/>
+            <enum name="circles" value="1"/>
+            <enum name="water_drop" value="2"/>
+            <enum name="ring" value="3"/>
+            <enum name="smartisan" value="4"/>
+        </attr>
+        <attr format="reference" name="cprl_refreshColors"/>
+        <attr format="reference" name="cprl_refreshColor"/>
+        <attr format="reference" name="cprl_backgroundColor"/>
+    </declare-styleable><declare-styleable name="MobileNumberEditText">
+        <attr format="boolean" name="mnet_enableDefaultPrefix"/>
+    </declare-styleable><declare-styleable name="SegmentedRadioGroup">
+        <attr format="dimension" name="srg_borderWidth"/>
+        <attr format="dimension" name="srg_cornerRadius"/>
+        <attr format="color" name="srg_checkedTextColor"/>
+        <attr format="color" name="srg_tintBorderColor"/>
+        <attr format="color" name="srg_tintColor"/>
+        <attr format="color" name="srg_uncheckedTextColor"/>
+        <attr format="color" name="srg_uncheckedTintColor"/>
+    </declare-styleable></configuration></mergedItems></merger>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:statusBarColor" tools:ignore="NewApi" tools:targetApi="lollipop">@color/color_app_blue_dark2</item>-->
+        <item name="android:textAppearanceLargePopupMenu">@style/PopupMenuTextAppearanceSmall</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/PopupMenuTextAppearanceSmall</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="actionMenuTextAppearance">@style/MenuItemTextAppearance</item>
+    </style>
+
+    <!-- Activity Style -->
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+
+    </style>
+
+    <!-- Activity Style -->
+    <style name="AuthTheme" parent="AppTheme">
+        <!--        <item name="android:windowBackground">@drawable/bg_login</item>-->
+        <item name="android:theme">@style/TransparentTheme</item>
+    </style>
+
+    <style name="NormalTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/color_app_white_mid</item>
+        <item name="android:theme">@style/WhiteTheme</item>
+    </style>
+
+    <style name="TransparentTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="WhiteTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/color_white</item>
+    </style>
+
+    <!-- MenuItem Style -->
+    <style name="MenuItemTextAppearance" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- PopupMenu Style -->
+
+    <style name="PopupMenuTextAppearanceSmall" parent="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small">
+        <item name="android:textColor">@color/color_app_gray_dark</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+
+    <!-- PopupMenu Style -->
+
+    <style name="FragmentBg">
+        <item name="android:background">@color/color_app_yellow_white_light</item>
+    </style>
+
+
+    <!-- Request Permission Dialog -->
+    <style name="MyAlertDialogTheme" parent="Base.Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowMinWidthMajor">70%</item>
+        <item name="android:windowMinWidthMinor">70%</item>
+        <item name="windowFixedWidthMajor">70%</item>
+        <item name="windowFixedWidthMinor">70%</item>
+        <item name="android:windowAnimationStyle">@style/PauseDialogAnimation</item>
+    </style>
+    <style name="MyAlertDialogTheme2" parent="Base.Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+        <item name="windowFixedWidthMajor">90%</item>
+        <item name="windowFixedWidthMinor">90%</item>
+        <item name="android:windowAnimationStyle">@style/PauseDialogAnimation</item>
+    </style>
+    <style name="PauseDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/anim_bounce_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_bounce_out</item>
+    </style>
+
+    <!-- Card Dialog -->
+
+    <style name="CardViewDialogBackgroundStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/color_white</item>
+<!--        <item name="rcfl_fillColor">@color/color_white</item>-->
+<!--        <item name="rcfl_roundCornerRadius">8dp</item>-->
+<!--        <item name="rcfl_roundElevation">0dp</item>-->
+    </style>
+
+    <style name="ContentItemBackgroundStyle">
+        <item name="android:paddingBottom">@dimen/_10sdp</item>
+        <item name="android:paddingEnd" tools:ignore="NewApi">@dimen/_15sdp</item>
+        <item name="android:paddingLeft">@dimen/_15sdp</item>
+        <item name="android:paddingRight">@dimen/_15sdp</item>
+        <item name="android:paddingStart" tools:ignore="NewApi">@dimen/_15sdp</item>
+        <item name="android:paddingTop">@dimen/_10sdp</item>
+    </style>
+
+    <!-- Scroll Style-->
+    <style name="ScrollViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:fadingEdgeLength">0dp</item>
+        <item name="android:overScrollMode">never</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:fillViewport">true</item>
+    </style>
+
+    <!-- PullRefresh Style-->
+    <style name="PullRefreshLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="cprl_refreshColor">@color/color_app_main</item>
+        <item name="cprl_refreshType">smartisan</item>
+    </style>
+
+    <style name="DividerVerticalApp">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/color_app_gray_light</item>
+    </style>
+
+    <style name="DividerHorizontalApp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#E0E0E0</item>
+    </style>
+
+    <!-- Button Style-->
+
+<!--    <style name="custom_picker_wheelDefaultStyle">-->
+<!--        <item name="custom_picker_wheel_item_color">@color/custom_picker_default_color</item>-->
+<!--        <item name="custom_picker_wheelSelectedColor">@color/custom_picker_selected_color</item>-->
+<!--        <item name="custom_picker_wheel_item_size">@dimen/custom_picker_wheel_text_size</item>-->
+<!--        <item name="custom_picker_time_selected_item_size">@dimen/custom_picker_selected_text_size-->
+<!--        </item>-->
+<!--        <item name="custom_picker_time_item_height">@dimen/custom_picker_wheel_item_height</item>-->
+<!--        <item name="custom_picker_time_visible_count">5</item>-->
+<!--        <item name="custom_picker_time_center_drawable">-->
+<!--            @drawable/custom_picker_wheelview_item_center_bg-->
+<!--        </item>-->
+<!--        <item name="custom_picker_wheel_content_padding">@dimen/custom_picker_wheel_text_padding-->
+<!--        </item>-->
+<!--    </style>-->
+
+<!--    <style name="custom_picker_dateDefaultStyle">-->
+<!--        <item name="custom_picker_date_item_color">@color/custom_picker_default_color</item>-->
+<!--        <item name="custom_picker_date_item_selected_color">@color/custom_picker_selected_color-->
+<!--        </item>-->
+<!--        <item name="custom_picker_date_item_size">@dimen/custom_picker_wheel_text_size</item>-->
+<!--        <item name="custom_picker_date_selected_item_size">@dimen/custom_picker_selected_text_size-->
+<!--        </item>-->
+<!--        <item name="custom_picker_date_item_height">@dimen/custom_picker_wheel_item_height</item>-->
+<!--        <item name="custom_picker_date_visible_count">5</item>-->
+<!--        <item name="custom_picker_date_center_drawable">-->
+<!--            @drawable/custom_picker_wheelview_item_center_bg-->
+<!--        </item>-->
+<!--    </style>-->
+
+    <style name="custom_picker_Dialog" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#38ACFF</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!--viewpager指示器-->
+    <declare-styleable name="BannerIndicator">
+        <!--指示器之间的间隙-->
+        <attr name="gapdot" format="dimension" />
+        <!--指示器的宽度-->
+        <attr name="slider_width" format="dimension" />
+        <!--指示器的高度-->
+        <attr name="slider_height" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="Indicator">
+        <!--未选中的指示器颜色-->
+        <attr name="normal_color" format="reference|color" />
+        <!--选中的指示器颜色-->
+        <attr name="selected_color" format="reference|color" />
+        <!--指示器每个item之间的间距-->
+        <attr name="spacing" format="dimension" />
+        <!--都是方形指示器长度-->
+        <attr name="rect_rect_itemWidth" format="dimension" />
+        <!--都是方形指示器高度-->
+        <attr name="rect_rect_itemHeight" format="dimension" />
+        <!--都是方形指示器圆角-->
+        <attr name="rect_rect_corner" format="dimension" />
+
+    </declare-styleable>
+
+    <!--配置指示器的属性-->
+    <declare-styleable name="XIndicator">
+
+        <attr name="indicatorColor" format="color" /><!-- 未选中的指示器的颜色 -->
+        <attr name="selectedIndicatorColor" format="color" /><!-- 选中的指示器颜色 -->
+        <!--指示器的宽和高-->
+        <attr name="indicatorWidth" format="dimension" />
+        <attr name="indicatorHeight" format="dimension" />
+        <!--横向的间距-->
+        <attr name="indicatorSpace" format="dimension" />
+        <!--选中的指示器的宽高-->
+        <attr name="selectedIndicatorWidth" format="dimension" />
+        <attr name="selectedIndicatorHeight" format="dimension" />
+        <!--下标和个数-->
+        <attr name="index" format="integer" />
+        <attr name="count" format="integer" />
+    </declare-styleable>
+
+    <style name="custom_dialog2" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否漂现在activity上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 是否半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 去除黑色边框的关键设置项 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 屏幕背景是否变暗 -->
+        <item name="android:backgroundDimAmount">0.3</item>
+    </style>
+
+<!--    <style name="picker_view_scale_anim" mce_bogus="1" parent="android:Animation">-->
+<!--        <item name="android:windowEnterAnimation">@anim/pickerview_dialog_scale_in</item>-->
+<!--        <item name="android:windowExitAnimation">@anim/pickerview_dialog_scale_out</item>-->
+<!--    </style>-->
+
+
+    <!-- 底部对话框样式 -->
+    <style name="BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomSheetStyleWrapper</item>
+    </style>
+
+    <style name="bottomSheetStyleWrapper" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>
